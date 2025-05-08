@@ -4,6 +4,8 @@
 
 - [✅] Set up Vite + React project
 - [] Create basic layout (Header, Hero, and academic)
+- [] Header
+- [] Home Page
 - [] Add contents to Academic page
 - [] Style with Google Fonts(Probably Poppins)
 
