@@ -21,11 +21,11 @@
 
 .navbar-links a {
   margin-left: 20px;
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .navbar-links a:hover {
-  color: #00FFFF; /* change this to your accent color */
+  color: #F04E23;
 }
