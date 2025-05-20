@@ -2,6 +2,9 @@
 
 .about-section {
   min-height: 100vh;
+  padding-top: 0;
+  padding-bottom: 60px;
+  justify-content: flex-start;
 }
 
 .about-header-section {
@@ -9,13 +12,46 @@
     flex-direction: column;
     align-items: center;
     gap: 0.15rem;
+    margin: 0;
 }
 .about-header-top {
     font-size: 1rem;
     margin: 0;
+    color: #B0B0B0;
 }
 .about-header-bottom {
     font-size: 2.5rem;
     margin: 0;
     color: #F04E23;
+}
+
+.about-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  padding-left: 3rem;
+  padding-top: 50px;
+  min-width: 300px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  object-fit: cover;
 }

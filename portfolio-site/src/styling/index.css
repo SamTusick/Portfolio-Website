@@ -12,5 +12,24 @@ body {
 }
 
 section {
-  padding-top: 80px;
+  scroll-margin-top: 60px;
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F04E23;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6840; 
 }
