@@ -2,18 +2,18 @@
 
 ## Weekend Plan (May 6-12)
 
-- [✅] Set up Vite + React project
-- [✅] Create basic layout (Header, Hero, and academic)
-- [✅] Header
-- [✅] Home Page
-- [✅] Style with Google Fonts(Probably Poppins)
+- [x] Set up Vite + React project
+- [x] Create basic layout (Header, Hero, and academic)
+- [x] Header
+- [x] Home Page
+- [x] Style with Google Fonts(Probably Poppins)
 
 ## Weekly Plan (May 19-25)
 
 ### Foundation Setup
 
-- [✅] Header/NavBar with working links
-- [✅] Home Page with typewriter and layout
+- [x] Header/NavBar with working links
+- [x] Home Page with typewriter and layout
 
 ---
 
