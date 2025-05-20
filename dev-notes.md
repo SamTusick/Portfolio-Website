@@ -5,9 +5,58 @@
 - [✅] Set up Vite + React project
 - [✅] Create basic layout (Header, Hero, and academic)
 - [✅] Header
-- [] Home Page
-- [] Add contents to Academic page
+- [✅] Home Page
 - [✅] Style with Google Fonts(Probably Poppins)
+
+## Weekly Plan (May 19-25)
+
+### Foundation Setup
+
+- [✅] Header/NavBar with working links
+- [✅] Home Page with typewriter and layout
+
+---
+
+### 🛠️ Structure & Basic Formatting
+
+### About Page
+
+- [ ] Add short personal intro
+- [ ] Include optional profile picture or fun facts section
+- [ ] Match Home page styling
+
+### Projects Page
+
+- [ ] Display 3–5 projects with title, tech stack, and description
+- [ ] Use flex/grid layout
+- [ ] Placeholder GitHub/demo buttons
+
+### Academic Page
+
+- [ ] List FGCU, Princeton program, summer academy involvement
+- [ ] Use clean typography and bullet formatting
+
+### Contact Page
+
+- [ ] Add simple form (name, email, message — no logic yet)
+- [ ] Include email + LinkedIn icon buttons
+- [ ] Keep layout consistent with other pages
+
+---
+
+## 🎨 Style Cleanup
+
+- [ ] Verify consistent spacing and font sizes across pages
+- [ ] Ensure each section has top padding to offset navbar
+- [ ] Enable `scroll-behavior: smooth;` in CSS
+
+---
+
+## 🚀 Optional Weekend Push
+
+- [ ] Deploy to GitHub Pages / Vercel / Netlify
+- [ ] Push all code to GitHub repo
+- [ ] Draft README with screenshot and feature list
 
 ## Ideas for Later
 

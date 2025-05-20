@@ -31,4 +31,5 @@
 
 .navbar-links a:hover {
   color: #F04E23;
+  text-decoration: wavy;
 }
