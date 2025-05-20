@@ -1,3 +1,4 @@
+/* Home Page */
 import "../styling/home.css";
 import { Typewriter } from 'react-simple-typewriter';
 
