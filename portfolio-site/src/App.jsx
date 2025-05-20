@@ -1,3 +1,4 @@
+import "./styling/index.css";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,15 +8,14 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-      <section id = "home"><Home /></section>
-      <section id = "about"><About /></section>
-      <section id = "projects"><Projects /></section>
-      <section id = "academic"><Academic /></section>
-      <section id = "contact"><Contact /></section>
-    </div>
-    
+      <section id="home"><Home /></section>
+      <section id="about"><About /></section>
+      <section id="projects"><Projects /></section>
+      <section id="academic"><Academic /></section>
+      <section id="contact"><Contact /></section>
+    </>
   );
 }
 

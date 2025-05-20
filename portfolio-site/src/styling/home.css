@@ -1,0 +1,37 @@
+.home-section {
+  min-height: 100vh;
+  padding-top: 120px; 
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.home-intro-group {
+  margin-bottom: 0.5rem;
+}
+
+.home-intro {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.home-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.typewriter-text {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: #F04E23;
+}
+
+.home-typewriter-start {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
