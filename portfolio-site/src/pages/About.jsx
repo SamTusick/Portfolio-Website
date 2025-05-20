@@ -20,12 +20,14 @@ export default function About(){
                         innovation, but for the potential to solve real-world problems in smarter ways. My goal 
                         is to build technology that's practical, human-centered, and meaningful beyond the screen. 
                     </p>
-            </div>
+                <div className="resume-button-wrapper">
+                    <a href="/SamTusick_Resume_SoftwareEngineering.docx" className="resume-button" download>Download Resume</a>
+                </div>
+                          </div>
                 <div className="about-image">
                     <img src={profilePic} alt="Picture of Samuel Tusick" />
                 </div>
             </div>
-            
         </section>
     );
 }
