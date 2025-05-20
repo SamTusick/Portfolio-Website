@@ -28,7 +28,7 @@
 
 ### Projects Page
 
-- [ ] Display 3–5 projects with title, tech stack, and description
+- [ ] Display all projects with title, tech stack, and description
 - [ ] Use flex/grid layout
 - [ ] Placeholder GitHub/demo buttons
 
@@ -49,14 +49,13 @@
 
 - [ ] Verify consistent spacing and font sizes across pages
 - [ ] Ensure each section has top padding to offset navbar
-- [ ] Enable `scroll-behavior: smooth;` in CSS
+- [x] Enable `scroll-behavior: smooth;` in CSS
 
 ---
 
 ## 🚀 Optional Weekend Push
 
 - [ ] Deploy to GitHub Pages / Vercel / Netlify
-- [ ] Push all code to GitHub repo
 - [ ] Draft README with screenshot and feature list
 
 ## Ideas for Later
