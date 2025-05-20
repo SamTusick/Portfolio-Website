@@ -3,8 +3,8 @@
 ## Weekend Plan (May 6-12)
 
 - [✅] Set up Vite + React project
-- [] Create basic layout (Header, Hero, and academic)
-- [] Header
+- [✅] Create basic layout (Header, Hero, and academic)
+- [✅] Header
 - [] Home Page
 - [] Add contents to Academic page
 - [✅] Style with Google Fonts(Probably Poppins)
@@ -31,8 +31,7 @@
 - Primary Accent: "#F04E23"
 - Main Text: "#FFFFFF"
 - Secondary Text: "##B0B0B0"
-- Hover: "#EEEEEE"
-- Cards: "##1A1A1A"
+- Cards: "#1A1A1A"
 
 ## Inspiration
 
