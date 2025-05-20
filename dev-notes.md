@@ -21,9 +21,10 @@
 
 ### About Page
 
-- [ ] Add short personal intro
-- [ ] Include optional profile picture or fun facts section
-- [ ] Match Home page styling
+- [x] Add short personal intro
+- [x] Include optional profile picture or fun facts section
+- [x] Match Home page styling
+- [x] Add Download Resume button
 
 ### Projects Page
 
@@ -79,14 +80,15 @@
 - Background: "#0B0B0B"
 - Primary Accent: "#F04E23"
 - Main Text: "#FFFFFF"
-- Secondary Text: "##B0B0B0"
+- Secondary Text: "#B0B0B0"
 - Cards: "#1A1A1A"
 
 ## Inspiration
 
 - https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/66ac109d24dc9dfe847d828b_AD_4nXdFywUebmrCJMqrbZ8XS8b1DnYjqYig2K5u94xXYuNbrqxogM3WUOXrp4A0QElTkUAAbJl4vj6HINhx7RehGlUyZCDWbkIxyuTpWTNOa_vX0ssy60tK1KgjWGTWiNFNFu943wgc79eURaMEJPKKOCJe1jA.png
--
+- https://johnny-mai7.github.io/johnnymai
+- https://github.com/emmabostian/developer-portfolios?tab=readme-ov-file#s
 
 ## Where to Continue
 
-- Fix and turn back into a single page layout
+- Projects Page
