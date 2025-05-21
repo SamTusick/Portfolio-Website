@@ -55,7 +55,7 @@
 
 ## 🚀 Optional Weekend Push
 
-- [ ] Deploy to GitHub Pages / Vercel / Netlify
+- [x] Deploy to GitHub Pages / Vercel / Netlify
 - [ ] Draft README with screenshot and feature list
 
 ## Ideas for Later
