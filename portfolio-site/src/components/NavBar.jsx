@@ -4,7 +4,7 @@ import "../styling/navbar.css"
 function NavBar() {
     return(
        <header className="navbar">
-        <div className="navbar-title">Samuel Tusick</div>
+        <a className="navbar-title" href="#home">Samuel Tusick</a>
         <nav className="navbar-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
