@@ -32,6 +32,12 @@
 - [ ] Use flex/grid layout
 - [ ] Placeholder GitHub/demo buttons
 
+### Skills Page
+
+- [ ] Display Tech Skills using icons and maybe a soft skills section
+- [ ] Create hover effects & a constant animation
+- [ ] Use flex/grid layout
+
 ### Academic Page
 
 - [ ] List FGCU, Princeton program, summer academy involvement
