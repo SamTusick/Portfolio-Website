@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section className="home-section">
       <div className="home-intro-group">
-        <h1 className="home-intro">Hello, I'm Test Commit</h1>
+        <h1 className="home-intro">Hello, I'm</h1>
         <h1 className="home-name">Samuel Tusick</h1>
       </div>
       <h2 className="typewriter-text">
