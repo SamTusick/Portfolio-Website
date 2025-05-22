@@ -25,12 +25,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: portfolio-site
 
       - name: Build project
         run: npm run build
+        working-directory: portfolio-site
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages       # Branch to push to
-          folder: dist           # Output directory from Vite build
+          branch: gh-pages
+          folder: portfolio-site/dist
