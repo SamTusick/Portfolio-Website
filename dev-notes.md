@@ -28,9 +28,9 @@
 
 ### Projects Page
 
-- [ ] Display all projects with title, tech stack, and description
-- [ ] Use flex/grid layout
-- [ ] Placeholder GitHub/demo buttons
+- [x] Display all projects with title, tech stack, and description
+- [x] Use flex/grid layout
+- [x] Placeholder GitHub/demo buttons
 
 ### Skills Page
 
@@ -96,4 +96,4 @@
 
 ## Where to Continue
 
-- Projects Page
+- Add Web-Scraping project card
