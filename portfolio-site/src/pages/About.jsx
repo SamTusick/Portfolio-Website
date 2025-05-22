@@ -21,7 +21,9 @@ export default function About(){
                         is to build technology that's practical, human-centered, and meaningful beyond the screen. 
                     </p>
                 <div className="resume-button-wrapper">
-                    <a href="/SamTusick_Resume_SoftwareEngineering.docx" className="resume-button" download>Download Resume</a>
+                    <a href="/SamTusick_Resume_SoftwareEngineering.docx" className="resume-button" 
+                    download>Download Resume
+                    </a>
                 </div>
                           </div>
                 <div className="about-image">
