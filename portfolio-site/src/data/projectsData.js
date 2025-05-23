@@ -15,19 +15,20 @@ const data = {
             { name: "Vite", type: "image", src: viteLogo },
             { name: "GitHub Actions", type: "icon" }
         ],
-        image: portfolioImage
+        image: portfolioImage,
+        wip: false
     },
 
     nhlScraper: {
         title: "NHL Stat Web Scraper",
-        description: "A Python tool that scrapes real-time NHL data by category using Selenium. Built for quick access to player stats, team standings, and more",
+        description: "A Python tool that scrapes real-time NHL data by category using Selenium. Built for quick access to player stats, team standings, and more.",
         repo: "https://github.com/SamTusick/NHL-Web-Scraping",
         techStack: [
             { name: "Selenium", type: "icon" },
             { name: "Python", type: "image", src: pythonLogo },
         ],
-        image: nhlLogo
-
+        image: nhlLogo,
+        wip: true
     }
 };
 

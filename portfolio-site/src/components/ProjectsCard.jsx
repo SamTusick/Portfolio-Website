@@ -1,12 +1,15 @@
 import React from "react";
 import { iconMap } from "../data/icons";
 
-export default function ProjectsCard({image, title, description, repo, techStack}) {
+export default function ProjectsCard({image, title, description, repo, techStack, wip}) {
     return (
         <div className="projects-card">
             <img className="portfolio-image" src={image} alt={`${title} screenshot`} />
             <h2>{title}</h2>
             <p>{description}</p>
+
+             {wip && <p className="wip-inline">🚧 This project is still under construction. 🚧</p>}
+
             <div className="tech-stack">
                 {techStack.map((tech) => {
                     if (tech.type === "image") {
