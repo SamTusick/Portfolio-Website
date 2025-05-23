@@ -2,6 +2,8 @@
 import { iconMap } from "./icons"
 import viteLogo from "../assets/icons8-vite-48.png"
 import portfolioImage from "../assets/portfolio-image.png" 
+import pythonLogo from "../assets/python.png"
+import nhlLogo from "../assets/nhl-logo.png"
 
 const data = {
     portfolioWebsite: {
@@ -14,6 +16,17 @@ const data = {
             { name: "GitHub Actions", type: "icon" }
         ],
         image: portfolioImage
+    },
+
+    nhlScraper: {
+        title: "NHL Stat Web Scraper",
+        description: "A Python tool that scrapes real-time NHL data by category using Selenium. Built for quick access to player stats, team standings, and more",
+        repo: "https://github.com/SamTusick/NHL-Web-Scraping",
+        techStack: [
+            { name: "Selenium", type: "icon" },
+            { name: "Python", type: "image", src: pythonLogo },
+        ],
+        image: nhlLogo
 
     }
 };
