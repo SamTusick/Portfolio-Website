@@ -7,6 +7,8 @@ import JSLogo from "../assets/icons8-javascript-48.png"
 import CppLogo from "../assets/icons8-c-48.png"
 import VSCodeLogo from "../assets/icons8-vs-code-48.png"
 import CLionLogo from "../assets/CLion.png"
+import JBLogo from "../assets/jb.png"
+import viteLogo from "../assets/icons8-vite-48.png"
 
 const languages = [
   { name: "Python", src: pythonLogo, color: "#3776AB" },
@@ -28,6 +30,9 @@ const tools = [
   { name: "CLIon", src: CLionLogo, color: "#0CA678" },
   { name: "GitHub", ...iconMap["GitHub"] },
   { name: "Git", ...iconMap["Git"] },
+  { name: "GitHub Actions", ...iconMap["GitHub Actions"] },
+  { name: "Vite", src: viteLogo, color: "#646CFF" },
+  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
 ];
 
 export default function Skills() {
