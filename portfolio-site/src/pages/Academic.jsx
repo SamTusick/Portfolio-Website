@@ -15,7 +15,7 @@ export default function Academic(){
             </div>
 
             <div className="academic-toggle-tabs">
-                {["Education", "Research", "Highlights"].map((section) => (
+                {["Education", "Research", "Other Experiences"].map((section) => (
                     <button 
                     key={section}
                     onClick={() => setActiveSection(section)}
@@ -94,9 +94,26 @@ export default function Academic(){
                     </div>
                 )}
 
-                {activeSection === "Highlights" && (
+                {activeSection === "Other Experiences" && (
                     <div className="academic-block">
-                        <h1>Add Highlights Here</h1>
+                        <h3>Other Experience</h3>
+                            <ul>
+                                <li>
+                                    <strong>EagleHacks 2025:</strong> Participated in FGCU's 36-hour hackathon, where I collaborated with a team to develop a project based on real-world company challenges.
+                                </li>
+                                <li>
+                                    <strong>AI Summer Academy:</strong> Contributed to curriculum design for courses such as <i>AI Productivity Tools</i>. Assisted with presentation creation and data validation for AI-focused topics. Also served as a teaching assistant for the <i>AI Productivity Tools</i> and <i>AI Ethics</i> courses, supporting participants throughout the program.
+                                </li>
+                                <li>
+                                    <strong>FGCU TechMatch:</strong> Networked with companies and shared research experience with professionals and recruiters at FGCU’s career fair.
+                                </li>
+                                <li>
+                                    <strong>DENDRITIC Institute:</strong> Ongoing contributor to research in agentic AI systems under the DENDRITIC Institute.
+                                </li>
+                                <li>
+                                    <strong>Honors College:</strong> Selected member of FGCU’s academic honors program for high-achieving students.
+                                </li>
+                            </ul>
                     </div>
                 )}
             </div>
