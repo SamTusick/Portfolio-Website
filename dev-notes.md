@@ -34,14 +34,14 @@
 
 ### Skills Page
 
-- [ ] Display Tech Skills using icons and maybe a soft skills section
-- [ ] Create hover effects & a constant animation
-- [ ] Use flex/grid layout
+- [x] Display Tech Skills using icons and maybe a soft skills section(Break into sections)
+- [x] Create hover effects & a constant animation
+- [x] Use flex/grid layout(Ended up going with a column layout)
 
 ### Academic Page
 
 - [ ] List FGCU, Princeton program, summer academy involvement
-- [ ] Use clean typography and bullet formatting
+- [ ] Use clean and bullet formatting
 
 ### Contact Page
 
@@ -96,4 +96,4 @@
 
 ## Where to Continue
 
-- Add Web-Scraping project card
+- Create Academic Page(To show Research and other academic achievements)
