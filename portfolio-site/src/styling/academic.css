@@ -87,6 +87,10 @@
   line-height: 1.5;
 }
 
+.academic-block strong {
+  color: #FFFFFF;
+}
+
 .academic-block ul {
   margin-top: -0.25rem;
   padding-left: -25rem;
