@@ -28,11 +28,11 @@ const frameworks = [
 const tools = [
   { name: "VS Code", src: VSCodeLogo, color: "#007ACC" },
   { name: "CLIon", src: CLionLogo, color: "#0CA678" },
-  { name: "Vite", src: viteLogo, color: "#646CFF" },
-  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
   { name: "GitHub", ...iconMap["GitHub"] },
   { name: "Git", ...iconMap["Git"] },
   { name: "GitHub Actions", ...iconMap["GitHub Actions"] },
+  { name: "Vite", src: viteLogo, color: "#646CFF" },
+  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
 ];
 
 export default function Skills() {
