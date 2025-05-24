@@ -11,9 +11,9 @@ import JBLogo from "../assets/jb.png"
 import viteLogo from "../assets/icons8-vite-48.png"
 
 const languages = [
+  { name: "C++", src: CppLogo, color: "#00599C" },
   { name: "Python", src: pythonLogo, color: "#3776AB" },
   { name: "JavaScript", src: JSLogo, color: "#F7DF1E" },
-  { name: "C++", src: CppLogo, color: "#00599C" },
   { name: "HTML", ...iconMap["HTML"] },
   { name: "CSS", ...iconMap["CSS"] },
 ];
@@ -28,11 +28,11 @@ const frameworks = [
 const tools = [
   { name: "VS Code", src: VSCodeLogo, color: "#007ACC" },
   { name: "CLIon", src: CLionLogo, color: "#0CA678" },
+  { name: "Vite", src: viteLogo, color: "#646CFF" },
+  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
   { name: "GitHub", ...iconMap["GitHub"] },
   { name: "Git", ...iconMap["Git"] },
   { name: "GitHub Actions", ...iconMap["GitHub Actions"] },
-  { name: "Vite", src: viteLogo, color: "#646CFF" },
-  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
 ];
 
 export default function Skills() {
