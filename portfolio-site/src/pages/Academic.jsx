@@ -51,7 +51,7 @@ export default function Academic(){
 
                         <h4>Honors & Awards</h4>
                         <ul>
-                            <li>Dean’s List: Fall 2023, Spring 2024</li>
+                            <li><strong>Dean’s List:</strong> Fall 2023, Spring 2024</li>
                             <li>Honors College Student</li>
                         </ul>
                     </div>
