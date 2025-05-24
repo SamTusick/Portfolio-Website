@@ -41,7 +41,7 @@
 ### Academic Page
 
 - [ ] List FGCU, Princeton program, summer academy involvement
-- [ ] Use clean and bullet formatting
+- [x] Use clean and bullet formatting
 
 ### Contact Page
 
@@ -96,4 +96,4 @@
 
 ## Where to Continue
 
-- Create Academic Page(To show Research and other academic achievements)
+- Create Research and Highlight tabs for Academic Page
