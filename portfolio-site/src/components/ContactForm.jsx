@@ -1,16 +1,24 @@
 import "../styling/contact.css";
+import { motion } from "framer-motion";
 
 export default function ContactForm() {
   return (
-    <form
-      className="contact-form"
-      action="https://formspree.io/f/xnndkpbk"
-      method="POST"
+    <motion.div
+      className="contact-form-style"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.25, ease: "easeOut" }}
     >
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" rows="5" required />
-      <button type="submit">Send Message</button>
-    </form>
+      <form
+        className="contact-form"
+        action="https://formspree.io/f/xnndkpbk"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required />
+        <button type="submit">Send Message</button>
+      </form>
+  </motion.div>
   );
 }

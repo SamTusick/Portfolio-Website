@@ -9,6 +9,7 @@ import VSCodeLogo from "../assets/icons8-vs-code-48.png"
 import CLionLogo from "../assets/CLion.png"
 import JBLogo from "../assets/JB.png"
 import viteLogo from "../assets/icons8-vite-48.png"
+import { motion } from "framer-motion";
 
 const languages = [
   { name: "C++", src: CppLogo, color: "#00599C" },
@@ -38,18 +39,28 @@ const tools = [
 export default function Skills() {
     return (
       <section className="skills-section">
-            <div className="skills-header-section">
+            <motion.div
+              className="skills-header-section"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.25, ease: "easeOut" }}
+            >
                 <h3 className="skills-header-top">Checkout My</h3>
                 <h2 className="skills-header-bottom">Skills</h2>
-            </div>
+            </motion.div>
 
-          <div className="skills-wrapper">
+          <motion.div
+              className="skills-wrapper"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.25, ease: "easeOut" }}
+            >
             <div className="skills-container">
                 <SkillSection title="Languages" techStack={languages} />
                 <SkillSection title="Frameworks & Libraries" techStack={frameworks} />
                 <SkillSection title="Tools & Platforms" techStack={tools} />
             </div>
-          </div>
+          </motion.div>
       </section>
     );
   }

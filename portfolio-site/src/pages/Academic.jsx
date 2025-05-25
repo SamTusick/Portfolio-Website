@@ -3,18 +3,29 @@ import "../styling/academic.css"
 import "../styling/research.css"
 import { useState } from "react";
 import ResearchCard from "../components/ResearchCard"
+import { motion } from "framer-motion";
 
 export default function Academic(){
 
     const [activeSection, setActiveSection] = useState("Education");
     return (
         <section className="academic-section">
-            <div className="academic-header-section">
+           <motion.div
+                className="academic-header-section"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.25, ease: "easeOut" }}
+            >
                 <h3 className="academic-header-top">My</h3>
                 <h2 className="academic-header-bottom">Academic Experience</h2>
-            </div>
+            </motion.div>
 
-            <div className="academic-toggle-tabs">
+            <motion.div
+                className="academic-toggle-tabs"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.25, ease: "easeOut" }}
+            >
                 {["Education", "Research", "Other Experiences"].map((section) => (
                     <button 
                     key={section}
@@ -24,11 +35,16 @@ export default function Academic(){
                         {section}
                     </button>
                 ))}
-            </div>
+            </motion.div>
 
             <div className="academic-content">
                 {activeSection === "Education" && (
-                   <div className="academic-block">
+                    <motion.div
+                        className="academic-block"
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1.25, ease: "easeOut" }}
+                    >
                          <h3>
                             Florida Gulf Coast University <span style={{ fontWeight: "normal" }}><i>— Expected May 2027</i></span>
                         </h3>
@@ -54,10 +70,11 @@ export default function Academic(){
                             <li><strong>Dean’s List:</strong> Fall 2023, Spring 2024</li>
                             <li>Honors College Student</li>
                         </ul>
-                    </div>
+                    </motion.div>
                 )}
 
                 {activeSection === "Research" && (
+                    
                     <div className="research-academic-block">
                         <ResearchCard
                             title = "Agentic AI Research — Dendritic Institute"
@@ -95,7 +112,12 @@ export default function Academic(){
                 )}
 
                 {activeSection === "Other Experiences" && (
-                    <div className="academic-block">
+                    <motion.div
+                        className="academic-block"
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1.25, ease: "easeOut" }}
+                    >
                         <h3>Other Experience</h3>
                             <ul>
                                 <li>
@@ -114,7 +136,7 @@ export default function Academic(){
                                     <strong>Honors College:</strong> Selected member of FGCU’s academic honors program for high-achieving students.
                                 </li>
                             </ul>
-                    </div>
+                    </motion.div>
                 )}
             </div>
         </section>

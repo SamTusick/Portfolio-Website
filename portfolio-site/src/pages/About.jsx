@@ -1,16 +1,27 @@
 /* About Page */
 import "../styling/about.css"
 import profilePic from "../assets/profile-pic.jpg";
+import { motion } from "framer-motion";
 
 
 export default function About(){
     return (
         <section className="about-section">
-            <div className="about-header-section">
+            <motion.div
+              className="about-header-section"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.25, ease: "easeOut" }}
+            >
                 <h3 className="about-header-top">Get to Know More</h3>
                 <h2 className="about-header-bottom">About Me</h2>
-            </div>
-            <div className="about-content-container">
+            </motion.div>
+            <motion.div
+                className="about-content-container"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.25, ease: "easeOut" }}
+            >
                 <div className="about-text">
                     <p>
                         I'm a software engineering student at Florida Gulf Coast University, originally from 
@@ -29,7 +40,7 @@ export default function About(){
                 <div className="about-image">
                     <img src={profilePic} alt="Picture of Samuel Tusick" />
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 }

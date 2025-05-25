@@ -1,6 +1,14 @@
+/* Skills Section Component */
+import { motion } from "framer-motion";
+
 export default function SkillSection({ title, techStack }) {
   return (
-    <div className="skill-section">
+    <motion.div
+              className="skill-section"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.25, ease: "easeOut" }}
+            >
       <h3 className="skill-title">{title}</h3>
       <div className="skill-icons">
         {techStack.map((tech) => {
@@ -36,6 +44,6 @@ export default function SkillSection({ title, techStack }) {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 }
