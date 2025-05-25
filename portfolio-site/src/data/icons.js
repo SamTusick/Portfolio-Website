@@ -1,4 +1,4 @@
-import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt } from 'react-icons/fa';
+import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt,  } from 'react-icons/fa';
 import { SiVite, SiFlask, SiMongodb, SiGithubactions, SiSelenium } from 'react-icons/si';
 
 export const iconMap = {
@@ -47,6 +47,6 @@ export const iconMap = {
   Node: {
     icon: FaNode,
     color: "#339933"
-  }
+  },
 
 };
