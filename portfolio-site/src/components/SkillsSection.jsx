@@ -24,23 +24,28 @@ export default function SkillSection({ title, techStack }) {
             e.currentTarget.style.filter = "none";
           };
 
+          const floatAmount = Math.floor(Math.random() * 2) + 2; // Between 2–3
+          const floatSpeed = Math.random() * 1 + 2.5; // Between 2.5–3.5 seconds
+
           return (
-            <span
-              className="skill-icon"
-              key={tech.name}
-              title={tech.name}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              style={{
-                transition: "transform 0.2s ease, filter 0.2s ease"
-              }}
-            >
+            <motion.span
+                className="skill-icon"
+                key={tech.name}
+                title={tech.name}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                style={{
+                  transition: "transform 0.2s ease, filter 0.2s ease"
+                }}
+                animate={{ y: [0, -floatAmount, 0] }} // Bobbing motion
+                transition={{ duration: floatSpeed, repeat: Infinity, ease: "easeInOut" }}
+              >
               {Icon ? (
                 <Icon size={40} color={tech.color || "#FFFFFF"} />
               ) : (
                 <img src={tech.src} alt={tech.name} />
               )}
-            </span>
+            </motion.span>
           );
         })}
       </div>
