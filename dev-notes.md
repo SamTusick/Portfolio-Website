@@ -45,16 +45,16 @@
 
 ### Contact Page
 
-- [ ] Add simple form (name, email, message — no logic yet)
-- [ ] Include email + LinkedIn icon buttons
-- [ ] Keep layout consistent with other pages
+- [x] Add simple form
+- [x] Include email + LinkedIn icon buttons
+- [x] Keep layout consistent with other pages
 
 ---
 
 ## 🎨 Style Cleanup
 
-- [ ] Verify consistent spacing and font sizes across pages
-- [ ] Ensure each section has top padding to offset navbar
+- [x] Verify consistent spacing and font sizes across pages
+- [x] Ensure each section has top padding to offset navbar
 - [x] Enable `scroll-behavior: smooth;` in CSS
 
 ---
@@ -96,5 +96,5 @@
 
 ## Where to Continue
 
-- Create Contact page
-- Add animations
+- Create and add animations
+- Allow resposniveness for all sizes
