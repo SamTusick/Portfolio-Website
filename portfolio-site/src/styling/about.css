@@ -77,3 +77,30 @@
 .resume-button:hover {
   background-color: #F04E23;
 }
+
+@media (max-width: 767px) {
+  .about-content-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .about-text {
+    padding-left: 0;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume-button-wrapper {
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .resume-button {
+    width: fit-content;
+  }
+}
