@@ -62,7 +62,6 @@
 ## 🚀 Optional Weekend Push
 
 - [x] Deploy to GitHub Pages / Vercel / Netlify
-- [ ] Draft README with screenshot and feature list
 
 ## Ideas for Later
 
@@ -96,5 +95,4 @@
 
 ## Where to Continue
 
-- Create and add animations
 - Allow resposniveness for all sizes
