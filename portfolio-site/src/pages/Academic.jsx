@@ -87,7 +87,7 @@ export default function Academic(){
                         <ResearchCard
                             title="Router-Level Security Detection"
                             period = "Feb 2025 - Apr 2025"
-                            role="Backend Developer"
+                            role="Subteam Lead & Backend Developer"
                             tools="Python, Flask, SQLite, SSH"
                             description="For my Computer Security course we were tasked to contribute to an on-going research project from the 'Eagle CyberNest Lab'. I took on the role of team-leader, so I managed my group of 5 to help improve both the front-end and back-end of a 'Home Security System'. My main roles were to have communication and retrieve tasks from our mentor and then delegate within the group. I also worked on the back-end team, where I updated the system to be able to fully integrate 3 different routers. "
                         />
