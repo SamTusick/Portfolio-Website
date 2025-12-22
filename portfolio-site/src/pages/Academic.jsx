@@ -49,10 +49,10 @@ export default function Academic(){
                             Florida Gulf Coast University <span style={{ fontWeight: "normal" }}><i>— Expected May 2027</i></span>
                         </h3>
                         <h4><i>B.S. in Software Engineering</i></h4>
-                        <h5><strong>Cumulative GPA:</strong> <i>3.44</i></h5>
+                        <h5><strong>In-major GPA:</strong> <i>3.84</i></h5>
                         <p>
-                        <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Computer Security,
-                            Software Engineering Fundamentals <i>(currently in progress)</i>
+                        <strong>Relevant Coursework:</strong> Data Structures and Algorithms, Digital Systems and Architecture, 
+                        Computer Security, Programming II, Intro to Cloud Computing, Software Engineering Fundamentals, Operating Systems
                         </p>
 
                         <hr className="academic-divider" />
