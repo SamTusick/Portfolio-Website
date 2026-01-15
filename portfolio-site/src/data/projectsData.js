@@ -6,6 +6,8 @@ import pythonLogo from "../assets/python.png"
 import cppLogo from "../assets/icons8-c-48.png"
 import statLogo from "../assets/stat-thumbnail.png"
 import schoolImg from "../assets/school_management_example.jpg"
+import asmLogo from "../assets/assembly.jpg"
+import asmPic from "../assets/asm-pic.jpeg"
 
 const data = {
         nhlScraper: {
@@ -31,6 +33,17 @@ const data = {
             { name: "SQLite", type: "icon"},
         ],
         image: schoolImg,
+        wip: false
+    },
+
+        trafficLight: {
+        title: "Traffic Light System",
+        description: "Developed a traffic light control system in AVR assembly that manages North/South and East/West vehicle signals along with pedestrian crosswalks. The program uses external interrupts to handle walk-button requests and timer-based delays to sequence light changes, including walk signal activation and blinking warnings. This project demonstrates low-level microcontroller programming, GPIO configuration, interrupt handling, and state-based control logic.",
+        repo: "https://github.com/SamTusick/TrafficLight-Assembly",
+        techStack: [
+            { name: "Assembly", type: "image", src: asmLogo },
+        ],
+        image: asmPic,
         wip: false
     },
 
