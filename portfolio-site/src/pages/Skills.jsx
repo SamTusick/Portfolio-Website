@@ -5,17 +5,18 @@ import "../styling/skills.css"
 import pythonLogo from "../assets/python.png"
 import JSLogo from "../assets/icons8-javascript-48.png"
 import CppLogo from "../assets/icons8-c-48.png"
+import CLlogo from "../assets/icons8-c-programming-48.png"
 import VSCodeLogo from "../assets/icons8-vs-code-48.png"
 import CLionLogo from "../assets/CLion.png"
 import JBLogo from "../assets/JB.png"
 import viteLogo from "../assets/icons8-vite-48.png"
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 const languages = [
+  { name: "C", src: CLlogo, color: "#283593"},
   { name: "C++", src: CppLogo, color: "#00599C" },
   { name: "Python", src: pythonLogo, color: "#3776AB" },
   { name: "SQL", ...iconMap["SQL"] },
-  { name: "JavaScript", src: JSLogo, color: "#F7DF1E" },
 ];
 
 const frameworks = [

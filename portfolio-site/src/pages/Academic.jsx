@@ -51,9 +51,20 @@ export default function Academic(){
                         <h4><i>B.S. in Software Engineering</i></h4>
                         <h5><strong>In-major GPA:</strong> <i>3.84</i></h5>
                         <p>
-                        <strong>Relevant Coursework:</strong> Data Structures and Algorithms, Digital Systems and Architecture, 
-                        Computer Security, Programming II, Intro to Cloud Computing, Software Engineering Fundamentals, Operating Systems
+                        <strong>Relevant Coursework:</strong> Operating Systems, Software Testing, Intro to Data Engineering,
+                                                                Requirements Engineering & Analysis, Intro to Cloud Computing, Software Engineering
+                                                                Fundamentals, Computer Organization & Assembly Language Programming, Data Structures &
+                                                                Algorithms, Computer Security, Calculus III, Differential Equations.
                         </p>
+
+                        <hr className="academic-divider" />
+
+                        <h4>Honors & Awards</h4>
+                        <ul>
+                            <li><strong>Dean’s List:</strong> 2023, 2024, 2025</li>
+                            <li><strong>Ruth M. and Cleveland L. Campbell Engineering Scholarship Endowed Fund</strong></li>
+                        </ul>
+
 
                         <hr className="academic-divider" />
 
@@ -63,13 +74,6 @@ export default function Academic(){
                             <li>Participant, EagleHacks 2025</li>
                         </ul>
 
-                        <hr className="academic-divider" />
-
-                        <h4>Honors & Awards</h4>
-                        <ul>
-                            <li><strong>Dean’s List:</strong> Fall 2023, Spring 2024</li>
-                            <li>Honors College Student</li>
-                        </ul>
                     </motion.div>
                 )}
 
@@ -77,11 +81,11 @@ export default function Academic(){
                     
                     <div className="research-academic-block">
                         <ResearchCard
-                            title = "Agentic AI Research — Dendritic Institute"
+                            title = "Agentic AI Research & Development — Dendritic AI & DS Institute"
                             period = "Mar 2025 - Present"
-                            role = " Research Assistant"
+                            role = " Research & Development Assistant"
                             tools = "Python, LLMs, Agent Architecture"
-                            description = "Working with a small team to learn and develop AI agents. Researching the types of AI agents, how they work, the architecture of each, and when to use each type." 
+                            description = "As an Agentic AI Researcher and Developer at the Dendritic Institute, I contribute to the design and development of AI-driven educational tools, intelligent tutoring systems, and applied research initiatives. My work focuses on building agentic AI solutions, supporting large-scale AI education programs, and developing technologies that enhance learning, mentorship, and real-world training experiences." 
                         />
 
                         <ResearchCard
@@ -121,19 +125,22 @@ export default function Academic(){
                         <h3>Other Experience</h3>
                             <ul>
                                 <li>
+                                    <strong>FGCU AI Summer Academy 2026</strong> Supported the planning and delivery of the 2026 FGCU Summer AI Academy, helping provide workshops, trainings, webinars, and hands-on learning experiences to more than 500 participants. Contributed to the development of educational content and initiatives designed to expand AI literacy for students, educators, and community partners.
+                                </li>
+                                <li>
+                                    <strong>Authentifi.ai</strong> Worked as a Platform Developer Intern at Authentifi AI, contributing to the development of AI-powered solutions and platform features. Collaborated on software development initiatives focused on improving functionality, scalability, and user experience within emerging AI applications.
+                                </li>
+                                <li>
                                     <strong>EagleHacks 2025:</strong> Participated in FGCU's 36-hour hackathon, where I collaborated with a team to develop a project based on real-world company challenges.
                                 </li>
                                 <li>
-                                    <strong>AI Summer Academy:</strong> Contributed to curriculum design for courses such as <i>AI Productivity Tools</i>. Assisted with presentation creation and data validation for AI-focused topics. Also served as a teaching assistant for the <i>AI Productivity Tools</i> and <i>AI Ethics</i> courses, supporting participants throughout the program.
+                                    <strong>AI Summer Academy 2025:</strong> Contributed to curriculum design for courses such as <i>AI Productivity Tools</i>. Assisted with presentation creation and data validation for AI-focused topics. Also served as a teaching assistant for the <i>AI Productivity Tools</i> and <i>AI Ethics</i> courses, supporting participants throughout the program.
                                 </li>
                                 <li>
                                     <strong>FGCU TechMatch:</strong> Networked with companies and shared research experience with professionals and recruiters at FGCU’s career fair.
                                 </li>
                                 <li>
                                     <strong>DENDRITIC Institute:</strong> Ongoing contributor to research in agentic AI systems under the DENDRITIC Institute.
-                                </li>
-                                <li>
-                                    <strong>Honors College:</strong> Selected member of FGCU’s academic honors program for high-achieving students.
                                 </li>
                             </ul>
                     </motion.div>
