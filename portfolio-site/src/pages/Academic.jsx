@@ -70,8 +70,13 @@ export default function Academic(){
 
                         <h4>Clubs & Activities</h4>
                         <ul>
-                            <li>Member, Computer Science & Software Engineering Club</li>
-                            <li>Participant, EagleHacks 2025</li>
+                            <li><strong>2026 FGCU AI Day Panelist</strong></li>
+                            <li>Member, <strong>FGCU DeepTech Club</strong></li>
+                            <li>Member, <strong>Computer Science & Software Engineering Club</strong></li>
+                            <li>Participant, <strong>EagleHacks 2025</strong></li>
+                            <li>Member, <strong>FGCU Run Club</strong></li>
+                            <li>Member, <strong>TheiiiMovement</strong></li>
+                            <li>Student, <strong>Gracie Barra BJJ</strong></li>
                         </ul>
 
                     </motion.div>
@@ -124,6 +129,9 @@ export default function Academic(){
                     >
                         <h3>Other Experience</h3>
                             <ul>
+                                <li>
+                                    <strong>2026 FGCU AI Day Panelist</strong> Presented at FGCU's inaugural AI Day as a panelist for “AI in University Operations,” showcasing Dendritic's work on RAG-enhanced AI tutors developed for the Engineering Learning Hub. Shared insights on building instructor-guided tutoring systems designed to provide 24/7 academic support, reduce hallucinations through curated course content, and expand access to personalized learning resources.
+                                </li>
                                 <li>
                                     <strong>FGCU AI Summer Academy 2026</strong> Supported the planning and delivery of the 2026 FGCU Summer AI Academy, helping provide workshops, trainings, webinars, and hands-on learning experiences to more than 500 participants. Contributed to the development of educational content and initiatives designed to expand AI literacy for students, educators, and community partners.
                                 </li>
