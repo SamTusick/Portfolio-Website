@@ -1,6 +1,6 @@
 /* About Page */
 import "../styling/about.css"
-import profilePic from "../assets/profile-pic.jpg";
+import profilePic from "../assets/GSM_pic.JPG";
 import { motion } from "framer-motion";
 
 

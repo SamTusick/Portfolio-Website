@@ -20,8 +20,9 @@ export default function Home(){
                 'An Aspiring Software Engineer',
                 'An Agentic AI Research & Developer',
                 'A Full-Stack Developer',
-                'Lifelong Learner', 
-                'Fitness Enthusiast'
+                'A Lifelong Learner', 
+                'A Fitness Enthusiast',
+                'An Outdoor Explorer'
               ]}
               loop
               cursor
