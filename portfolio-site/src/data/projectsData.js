@@ -9,8 +9,21 @@ import schoolImg from "../assets/school_management_example.jpg"
 import asmLogo from "../assets/assembly.jpg"
 import asmPic from "../assets/asm-pic.jpeg"
 import routerPic from "../assets/router_pic.png"
+import pinterest from "../assets/pinterest.png"
 
 const data = {
+        SWTesting: {
+        title: "Pinterest Testing Suites",
+        description: "Led a software testing team in evaluating Pinterest.com through automated testing methodologies, developing Selenium-based test suites in Java to assess functionality, reliability, and usability. Collaborated on testing strategy, execution, and reporting to present findings and recommendations for improving software quality.",
+        repo: "https://github.com/SamTusick/Pinterest_Testing_Final_Project",
+        techStack: [
+            { name: "Selenium", type: "icon"},
+            { name: "Java", type: "icon" },
+        ],
+        image: pinterest,
+        wip: false
+        },
+        
         routerApp: {
         title: "Smart Router Monitoring App",
         description: "Led a team and developed a Flask-based web application that collects, stores, and visualizes real-time performance metrics from Mango, Beryl, and ASUS routers using SSH connections. Built a REST API and SQLite-backed data pipeline to support dashboard analytics, scheduled data collection, and historical performance insights.",
@@ -21,7 +34,6 @@ const data = {
         ],
         image: routerPic,
         wip: false
-        
         },
 
         nhlScraper: {
