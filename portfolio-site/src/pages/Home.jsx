@@ -3,6 +3,8 @@ import "../styling/home.css";
 import { Typewriter } from 'react-simple-typewriter';
 import panelPic from "../assets/Panel_pic.JPEG";
 
+export default function Home (){
+
 <section className="home-section">
   <div className="home-content">
     <div className="home-intro-group">
@@ -16,8 +18,10 @@ import panelPic from "../assets/Panel_pic.JPEG";
         <Typewriter
           words={[
             'An Aspiring Software Engineer',
-            'An Agentic AI Researcher',
-            'A Full-Stack Developer'
+            'An Agentic AI Research & Developer',
+            'A Full-Stack Developer',
+            'Lifelong Learner', 
+            'Fitness Enthusiast'
           ]}
           loop
           cursor
@@ -34,3 +38,5 @@ import panelPic from "../assets/Panel_pic.JPEG";
     <img src={panelPic} alt="Picture of Samuel Tusick" />
   </div>
 </section>
+
+}
