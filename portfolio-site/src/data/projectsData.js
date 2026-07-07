@@ -8,8 +8,22 @@ import statLogo from "../assets/stat-thumbnail.png"
 import schoolImg from "../assets/school_management_example.jpg"
 import asmLogo from "../assets/assembly.jpg"
 import asmPic from "../assets/asm-pic.jpeg"
+import routerPic from "../assets/router_pic.png"
 
 const data = {
+        routerApp: {
+        title: "Smart Router Monitoring App",
+        description: "Led a team and developed a Flask-based web application that collects, stores, and visualizes real-time performance metrics from Mango, Beryl, and ASUS routers using SSH connections. Built a REST API and SQLite-backed data pipeline to support dashboard analytics, scheduled data collection, and historical performance insights.",
+        repo: "https://github.com/nixguin/TrafficGuard-Upgraded",
+        techStack: [
+            { name: "Python", type: "image", src: pythonLogo },
+            { name: "Flask", type: "icon" },
+        ],
+        image: routerPic,
+        wip: false
+        
+        },
+
         nhlScraper: {
         title: "NHL Stat Web Scraper",
         description: "A Python + React tool that scrapes real-time NHL data by category using Selenium. Built for quick access to different player stat leaders.",
@@ -23,6 +37,7 @@ const data = {
         wip: false
 
     },
+
     
         schoolManagement: {
         title: "School Management System",
