@@ -10,8 +10,20 @@ import asmLogo from "../assets/assembly.jpg"
 import asmPic from "../assets/asm-pic.jpeg"
 import routerPic from "../assets/router_pic.png"
 import pinterest from "../assets/pinterest.png"
+import switch4GoodPic from "../assets/dbImage.png"
 
 const data = {
+        S4Good: {
+        title: "Switch4Good Impact Tracking Database",
+        description: "Led a team developing a database system for Switch4Good to support impact tracking across more than 100 universities and over 1,500 students. Designed a PostgreSQL schema to manage student participation, projects, institutional partnerships, and program outcomes.",
+        repo: "https://github.com/SamTusick/Switch4Good_DataBaseSystem",
+        techStack: [
+            { name: "Postgres", type: "icon"}
+        ],
+        image: switch4GoodPic,
+        wip: false
+        },
+        
         SWTesting: {
         title: "Pinterest Testing Suites",
         description: "Led a software testing team in evaluating Pinterest.com through automated testing methodologies, developing Selenium-based test suites in Java to assess functionality, reliability, and usability. Collaborated on testing strategy, execution, and reporting to present findings and recommendations for improving software quality.",

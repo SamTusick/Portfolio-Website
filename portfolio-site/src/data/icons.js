@@ -1,5 +1,6 @@
 import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, FaJava } from 'react-icons/fa';
 import { SiFlask, SiMongodb, SiGithubactions, SiSelenium, SiSqlite } from 'react-icons/si';
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const iconMap = {
   React: {
@@ -57,6 +58,11 @@ export const iconMap = {
   Java: {
     icon: FaJava,
     color: "#ED8B00"
+  },
+
+  Postgres: {
+    icon: BiLogoPostgresql,
+    color: "#336791"
   }
    
 };
