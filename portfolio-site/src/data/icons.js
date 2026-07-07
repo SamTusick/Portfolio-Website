@@ -1,6 +1,8 @@
 import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, FaJava } from 'react-icons/fa';
 import { SiFlask, SiMongodb, SiGithubactions, SiSelenium, SiSqlite } from 'react-icons/si';
 import { BiLogoPostgresql } from "react-icons/bi";
+import { PiFileSqlDuotone } from "react-icons/pi";
+import { color } from 'framer-motion';
 
 export const iconMap = {
   React: {
@@ -63,6 +65,11 @@ export const iconMap = {
   Postgres: {
     icon: BiLogoPostgresql,
     color: "#336791"
-  }
+  },
    
+  SQL: {
+    icon: PiFileSqlDuotone,
+    color: "#00A4EF"
+  }
+  
 };

@@ -14,9 +14,8 @@ import { motion } from "framer-motion";
 const languages = [
   { name: "C++", src: CppLogo, color: "#00599C" },
   { name: "Python", src: pythonLogo, color: "#3776AB" },
+  { name: "SQL", ...iconMap["SQL"] },
   { name: "JavaScript", src: JSLogo, color: "#F7DF1E" },
-  { name: "HTML", ...iconMap["HTML"] },
-  { name: "CSS", ...iconMap["CSS"] },
 ];
 
 const frameworks = [
@@ -27,6 +26,7 @@ const frameworks = [
 ];
 
 const tools = [
+  { name: "PostgresSQL", ...iconMap["Postgres"]},
   { name: "VS Code", src: VSCodeLogo, color: "#007ACC" },
   { name: "CLIon", src: CLionLogo, color: "#0CA678" },
   { name: "GitHub", ...iconMap["GitHub"] },
