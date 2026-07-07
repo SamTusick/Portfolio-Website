@@ -56,9 +56,10 @@
   object-fit: cover;
 }
 
-.resume-button-wrapper {
+.button-wrapper {
   display: flex;
   justify-content: flex-end; 
+  gap: 1rem;
   margin-top: 1rem;
 }
 
@@ -78,6 +79,22 @@
   background-color: #F04E23;
 }
 
+
+.cv-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #0B0B0B;
+  border: 1px solid #F04E23;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #F04E23;
+}
 @media (max-width: 767px) {
   .about-content-container {
     flex-direction: column;

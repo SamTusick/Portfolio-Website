@@ -24,20 +24,23 @@ export default function About(){
             >
                 <div className="about-text">
                     <p>
-                        I'm a software engineering student at Florida Gulf Coast University, originally from 
-                        Pittsburgh, Pennsylvania. I became interested in software development through a mix 
-                        of curiosity and a desire to create things that actually help people. Over time, I 
-                        found myself drawn to artificial intelligence and machine learning, not just for the 
-                        innovation, but for the potential to solve real-world problems in smarter ways. My goal 
-                        is to build technology that's practical, human-centered, and meaningful beyond the screen. 
+                        I am a Software Engineering student at Florida Gulf Coast University originally from Pittsburgh, Pennsylvania, with interests in artificial intelligence,
+                        backend development, and data-driven systems. As a Student Research Assistant at the Dendritic Institute, I support AI education initiatives, contribute 
+                        to custom AI tutors used within the Engineering Learning Hub, and help develop applied AI solutions for research projects. I enjoy building practical software 
+                        through web development, databases, automation, and cloud technologies, with a focus on creating impactful and scalable systems. I am always looking for opportunities 
+                        to learn, collaborate, and contribute to projects at the intersection of software engineering and artificial intelligence. 
                     </p>
-                <div className="resume-button-wrapper">
-                    <a  href="/Portfolio-Website/SamTusick_Software_Engineering_Resume_Intern_2026.pdf" className="resume-button" 
+                <div className="button-wrapper">
+                    <a  href="/Portfolio-Website/SamTusick_Software_Engineering_Resume_2026.pdf" className="resume-button" 
                         download>
                     Download Resume
                     </a>
+                    <a  href="/Portfolio-Website/SamTusick_Software_Engineering_CV_2026.pdf" className="cv-button" 
+                        download>
+                    Download CV
+                    </a>
                 </div>
-                          </div>
+                </div>
                 <div className="about-image">
                     <img src={profilePic} alt="Picture of Samuel Tusick" />
                 </div>
