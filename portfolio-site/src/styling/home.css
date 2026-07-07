@@ -36,3 +36,16 @@
   font-size: 1.5rem;
   color: #B0B0B0;
 }
+
+.home-image {
+  position: absolute;
+  right: 5rem;  
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home-image img {
+  width: 500px;   /* make smaller */
+  height: auto;
+  border-radius: 15px;
+}
