@@ -45,7 +45,48 @@
 }
 
 .home-image img {
-  width: 500px;   /* make smaller */
+  width: 500px;   
   height: auto;
   border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+  .home-section {
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home-intro-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-intro {
+    font-size: 1.2rem;
+  }
+
+  .home-name {
+    font-size: 2.5rem;
+  }
+
+  .home-typewriter-static,
+  .typewriter-text {
+    font-size: 1.2rem;
+  }
+
+  .home-image {
+    position: static;
+    transform: none;
+    margin-top: 2rem;
+  }
+
+  .home-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
 }
