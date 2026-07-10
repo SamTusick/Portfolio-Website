@@ -39,12 +39,12 @@ const data = {
 
         AITutors: {
         title: "AI-Powered Tutors",
-        description: "Leading the development of 14+ AI-powered tutoring systems now actively being tested within the FGCU's College of Engineering's 'The Learning Hub'. The work sits at the intersection of LLM application development and instructional design",
+        description: "Leading the development of 14+ AI-powered tutoring systems now actively being tested within the FGCU's College of Engineering's 'The Learning Hub'. This work is being done at Dendritic along with 'The Learning Hub'",
         techStack: [
             { name: "OpenAI", type: "icon"}
         ],
         image: aiTutor,
-        wip: True
+        wip: true
         },
         
         routerApp: {

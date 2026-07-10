@@ -75,7 +75,7 @@ export const iconMap = {
 
   OpenAI: {
     icon: AiOutlineOpenAI,
-    color: "#000000"
+    color: "#ffffff"
   }
   
 };
