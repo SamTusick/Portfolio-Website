@@ -11,6 +11,7 @@ import asmPic from "../assets/asm-pic.jpeg"
 import routerPic from "../assets/router_pic.png"
 import pinterest from "../assets/pinterest.png"
 import switch4GoodPic from "../assets/dbImage.png"
+import aiTutor from "../assets/aitutor.png"
 
 const data = {
         S4Good: {
@@ -34,6 +35,16 @@ const data = {
         ],
         image: pinterest,
         wip: false
+        },
+
+        AITutors: {
+        title: "AI-Powered Tutors",
+        description: "Leading the development of 14+ AI-powered tutoring systems now actively being tested within the FGCU's College of Engineering's 'The Learning Hub'. The work sits at the intersection of LLM application development and instructional design",
+        techStack: [
+            { name: "OpenAI", type: "icon"}
+        ],
+        image: aiTutor,
+        wip: True
         },
         
         routerApp: {

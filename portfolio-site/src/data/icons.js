@@ -2,6 +2,7 @@ import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, FaJava } from 
 import { SiFlask, SiMongodb, SiGithubactions, SiSelenium, SiSqlite } from 'react-icons/si';
 import { BiLogoPostgresql } from "react-icons/bi";
 import { PiFileSqlDuotone } from "react-icons/pi";
+import { AiOutlineOpenAI } from "react-icons/ai";
 import { color } from 'framer-motion';
 
 export const iconMap = {
@@ -70,6 +71,11 @@ export const iconMap = {
   SQL: {
     icon: PiFileSqlDuotone,
     color: "#00A4EF"
+  },
+
+  OpenAI: {
+    icon: AiOutlineOpenAI,
+    color: "#000000"
   }
   
 };
