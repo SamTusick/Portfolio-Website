@@ -63,6 +63,7 @@ export default function Academic(){
                         <ul>
                             <li><strong>Dean’s List:</strong> 2023, 2024, 2025</li>
                             <li><strong>Ruth M. and Cleveland L. Campbell Engineering Scholarship Endowed Fund</strong></li>
+                            <li><strong>Kunkle Family Scholarship Endowed Fund</strong></li>
                         </ul>
 
 
