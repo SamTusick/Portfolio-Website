@@ -31,7 +31,7 @@ export default function About(){
                         to learn, collaborate, and contribute to projects at the intersection of software engineering and artificial intelligence. 
                     </p>
                 <div className="button-wrapper">
-                    <a  href="/Portfolio-Website/SamTusick_Resume_2026.pdf" className="resume-button" 
+                    <a  href="/Portfolio-Website/Samuel_Tusick_Resume_2026.pdf" className="resume-button" 
                         download>
                     Download Resume
                     </a>
