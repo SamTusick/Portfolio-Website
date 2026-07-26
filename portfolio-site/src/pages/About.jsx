@@ -35,7 +35,7 @@ export default function About(){
                         download>
                     Download Resume
                     </a>
-                    <a  href="/Portfolio-Website/SamTusick_Software_Engineering_CV_2026.pdf" className="cv-button" 
+                    <a  href="/Portfolio-Website/Samuel_Tusick_CV_2026.pdf" className="cv-button" 
                         download>
                     Download CV
                     </a>
