@@ -24,11 +24,16 @@ export default function About(){
             >
                 <div className="about-text">
                     <p>
-                        I am a Software Engineering student at Florida Gulf Coast University originally from Pittsburgh, Pennsylvania, with interests in artificial intelligence,
-                        backend development, and data-driven systems. As a Student Research Assistant at the Dendritic Institute, I support AI education initiatives, contribute 
-                        to custom AI tutors used within the Engineering Learning Hub, and help develop applied AI solutions for research projects. I enjoy building practical software 
-                        through web development, databases, automation, and cloud technologies, with a focus on creating impactful and scalable systems. I am always looking for opportunities 
-                        to learn, collaborate, and contribute to projects at the intersection of software engineering and artificial intelligence. 
+                       I'm a Software Engineering student at Florida Gulf Coast University, originally from Pittsburgh, Pennsylvania, 
+                        with interests in artificial intelligence, backend development, and data-driven systems. As a Student Research
+                        Assistant at the Dendritic Institute, I help build and maintain 14+ custom AI tutors used within the Engineering 
+                        Learning Hub, and support AI education initiatives — including the 2026 FGCU Summer AI Academy, which reached over 500
+                        participants through workshops, trainings, and more than 150 hours of instructional content. I'm also contributing as a 
+                        developer on MAIVA, a fellow Dendritic Institute researcher's master's thesis project — an AI virtual patient training 
+                        platform that gives graduate students realistic, LLM-driven practice for mental health assessments. I enjoy building 
+                        practical software through web development, databases, automation, and cloud technologies, with a focus on creating impactful,
+                        scalable systems. I'm always looking for opportunities to learn, collaborate, and contribute to projects at the intersection of 
+                        software engineering and artificial intelligence.
                     </p>
                 <div className="button-wrapper">
                     <a  href="/Portfolio-Website/Samuel_Tusick_Resume_2026.pdf" className="resume-button" 
