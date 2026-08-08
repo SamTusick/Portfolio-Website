@@ -12,8 +12,34 @@ import routerPic from "../assets/router_pic.png"
 import pinterest from "../assets/pinterest.png"
 import switch4GoodPic from "../assets/dbImage.png"
 import aiTutor from "../assets/aitutor.png"
+import ragAgentPic from "../assets/Rag_email.png"
 
 const data = {
+        RAG_Email: {
+        title: "RAG Email Agent",
+        description: "A multi-tenant, retrieval-augmented email triage system built from scratch in Python and Flask, with no LangChain or similar abstractions, to demonstrate complete ownership of the RAG pipeline: chunking, OpenAI embeddings, pgvector retrieval, and GPT-4o Mini summarization. It connects to Microsoft Outlook via Graph API, delivers personalized, timezone-aware daily digests to an allowlisted set of users with per-account context and idempotent delivery, and runs as a secure, serverless pipeline on AWS Lambda with encrypted token storage in Secrets Manager.",
+        repo: "https://github.com/SamTusick/Rag-Email-Agent",
+        techStack: [
+            { name: "Python", type: "image", src: pythonLogo },
+            { name: "Flask", type: "icon"},
+            { name: "OpenAI", type: "icon"},
+            { name: "AWS", type: "icon"},
+            { name: "Outlook", type: "icon"},
+            { name: "Postgres", type: "icon"},
+        ],
+        image: ragAgentPic,
+        wip: true
+        },
+        S4Good: {
+        title: "Switch4Good Impact Tracking Database",
+        description: "Led a team developing a database system for Switch4Good to support impact tracking across more than 100 universities and over 1,500 students. Designed a PostgreSQL schema to manage student participation, projects, institutional partnerships, and program outcomes.",
+        repo: "https://github.com/SamTusick/Switch4Good_DataBaseSystem",
+        techStack: [
+            { name: "Postgres", type: "icon"}
+        ],
+        image: switch4GoodPic,
+        wip: false
+        },
         S4Good: {
         title: "Switch4Good Impact Tracking Database",
         description: "Led a team developing a database system for Switch4Good to support impact tracking across more than 100 universities and over 1,500 students. Designed a PostgreSQL schema to manage student participation, projects, institutional partnerships, and program outcomes.",

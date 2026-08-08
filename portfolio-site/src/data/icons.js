@@ -1,7 +1,7 @@
-import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, FaJava } from 'react-icons/fa';
+import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, FaJava, FaAws } from 'react-icons/fa';
 import { SiFlask, SiMongodb, SiGithubactions, SiSelenium, SiSqlite } from 'react-icons/si';
 import { BiLogoPostgresql } from "react-icons/bi";
-import { PiFileSqlDuotone } from "react-icons/pi";
+import { PiFileSqlDuotone, PiMicrosoftOutlookLogoThin } from "react-icons/pi";
 import { AiOutlineOpenAI } from "react-icons/ai";
 import { color } from 'framer-motion';
 
@@ -76,6 +76,16 @@ export const iconMap = {
   OpenAI: {
     icon: AiOutlineOpenAI,
     color: "#ffffff"
+  },
+
+  AWS: {
+    icon: FaAws,
+    color: "#FF9900"
+  },
+
+  Outlook: {
+    icon: PiMicrosoftOutlookLogoThin,
+    color: "#00A4EF"
   }
   
 };
