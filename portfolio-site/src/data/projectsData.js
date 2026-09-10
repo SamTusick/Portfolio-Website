@@ -28,7 +28,7 @@ const data = {
             { name: "Postgres", type: "icon"},
         ],
         image: ragAgentPic,
-        wip: true
+        wip: false
         },
         S4Good: {
         title: "Switch4Good Impact Tracking Database",
