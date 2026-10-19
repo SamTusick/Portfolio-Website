@@ -10,7 +10,6 @@ const roles = [
   'An Agentic AI Research & Developer',
   'A Full-Stack Developer',
   'A Lifelong Learner',
-  'A Fitness Enthusiast',
   'An Outdoor Explorer',
 ];
 

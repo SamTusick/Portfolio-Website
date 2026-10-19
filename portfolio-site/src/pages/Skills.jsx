@@ -8,8 +8,12 @@ import CppLogo from "../assets/icons8-c-48.png"
 import CLlogo from "../assets/icons8-c-programming-48.png"
 import VSCodeLogo from "../assets/icons8-vs-code-48.png"
 import CLionLogo from "../assets/CLion.png"
-import JBLogo from "../assets/JB.png"
 import viteLogo from "../assets/icons8-vite-48.png"
+import pygameLogo from "../assets/pygame_logo.png"
+import gymnasiumLogo from "../assets/gymnasium-text.png"
+import raspberryPiLogo from "../assets/rasbperry_pi.jpg"
+import openRocketLogo from "../assets/open_rocket.jpg"
+import supabase from "../assets/supabase.svg"
 import { motion } from "framer-motion";
 
 const languages = [
@@ -23,8 +27,10 @@ const languages = [
 const frameworks = [
   { name: "React", ...iconMap["React"] },
   { name: "Flask", ...iconMap["Flask"] },
-  { name: "Node.js", ...iconMap["Node"] },
-  { name: "Selenium", ...iconMap["Selenium"]}
+  { name: "Selenium", ...iconMap["Selenium"]},
+  { name: "Tailwind CSS", ...iconMap["Tailwind"] },
+  { name: "Pygame", src: pygameLogo, color: "#4CAF50" },
+  { name: "Gymnasium", src: gymnasiumLogo, color: "#0081A5" },
 ];
 
 // Text-only chips (no icon or logo).
@@ -32,8 +38,13 @@ const aiAutomation = [
   { name: "LLM API integration" },
   { name: "Prompt and skill design" },
   { name: "Workflow automation" },
-  { name: "Speech-to-text and text-to-speech" },
-  { name: "Agentic workflows" },
+  { name: "Agentic workflow automation" },
+  { name: "Orchestration of multi-service AI systems" },
+  { name: "Neural networks and genetic algorithms" },
+  { name: "RAG pipelines (chunking, embeddings, pgvector)" },
+  { name: "Speech-to-text and text-to-speech integration" },
+  { name: "Real-time LLM streaming over WebSockets" },
+  { name: "Semantic segmentation" },
 ];
 
 const tools = [
@@ -45,7 +56,12 @@ const tools = [
   { name: "Git", ...iconMap["Git"] },
   { name: "GitHub Actions", ...iconMap["GitHub Actions"] },
   { name: "Vite", src: viteLogo, color: "#646CFF" },
-  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
+  { name: "Supabase", src: supabase, color: "#34B27B" },
+  { name: "Jira", ...iconMap["Jira"] },
+  { name: "Microsoft Teams", ...iconMap["Microsoft Teams"] },
+  { name: "Outlook", ...iconMap["Outlook"] },
+  { name: "Raspberry Pi", src: raspberryPiLogo, color: "#C51A4A" },
+  { name: "OpenRocket", src: openRocketLogo, color: "#E53935" },
 ];
 
 export default function Skills() {

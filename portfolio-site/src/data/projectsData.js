@@ -13,28 +13,37 @@ import pinterest from "../assets/pinterest.webp"
 import switch4GoodPic from "../assets/switch4good.webp"
 import aiTutor from "../assets/ai-tutor.webp"
 import ragAgentPic from "../assets/rag-email.webp"
-import maivaDiagram from "../assets/diagram-maiva.svg"
+import lambdaLogo from "../assets/Lambda.png"
+import auroraLogo from "../assets/Aurora.png"
+import cognitoLogo from "../assets/Cognito.png"
+import maivalogo from "../assets/maiva_logo.png"
 import dendriticDiagram from "../assets/diagram-dendritic.svg"
 import payloadDiagram from "../assets/diagram-payload.svg"
 import carSimDiagram from "../assets/diagram-carsim.svg"
+import testNG from "../assets/testng.webp"
+import raspberryPi from "../assets/rasbperry_pi.jpg"
+import openrocket from "../assets/open_rocket.jpg"
+import pygame from "../assets/pygame_logo.png"
+import gymnasium from "../assets/gymnasium-text.png"
 
 // Tech stack entries: type "image" shows a logo, type "icon" looks the name up
 // in icons.js, type "text" shows a plain text chip.
 const data = {
     MAIVA: {
         title: "MAIVA: AI Virtual Patient Training Platform",
-        description: "I co-own architecture, data modeling, and technology decisions with a graduate researcher, with requirements coming from two university colleges. An orchestrator service connects the UI, speech-to-text, text-to-speech, and an LLM API, and each session starts from a master prompt filled with patient metadata. I built the speech-to-text feature and refactored large parts of the React frontend.",
-        note: "Private codebase, no public repo. Runs in Local, Dev, and Test environments with real testers.",
+        description: "I co-own architecture, data modeling, and technology decisions, turning requirements from two clinical assistant professors into a platform where students practice clinical interviews with AI-simulated psychiatric patients by chat, voice, or 3D avatar. I designed the orchestrator service that connects the UI, speech-to-text, text-to-speech, and the LLM API for every mode. It streams the patient's reply sentence by sentence over a WebSocket, saves each turn to the database in real time, and rebuilds a session from the saved transcript after a restart. I also built the speech-to-text feature and the safety-escalation flow that pauses the session clock, and refactored large parts of the React frontend.",
+        note: "Private codebase, no public repo. Chat and voice mode are in active testing with real mental health professionals, avatar mode in development. Runs in Local, Dev, and Test environments.",
         techStack: [
             { name: "React", type: "icon" },
-            { name: "TypeScript", type: "text" },
+            { name: "TypeScript", type: "icon" },
+            { name: "Tailwind", type: "icon" },
             { name: "AWS", type: "icon" },
-            { name: "Lambda", type: "text" },
-            { name: "Aurora", type: "text" },
-            { name: "Cognito", type: "text" },
+            { name: "Lambda", type: "image", src: lambdaLogo },
+            { name: "Aurora", type: "image", src: auroraLogo },
+            { name: "Cognito", type: "image", src: cognitoLogo },
             { name: "CDK", type: "text" },
         ],
-        image: maivaDiagram,
+        image: maivalogo,
         imageAlt: "Diagram: the MAIVA orchestrator service connecting the UI, speech-to-text, text-to-speech, LLM API, and database",
         inProgress: true,
     },
@@ -43,8 +52,8 @@ const data = {
         description: "Built the AIVA pipeline, which turns professor PDFs and slide decks into narration scripts and then generates the avatar video and matching slide deck, for an estimated 45% efficiency gain. Also built a reusable institute handbook generator, a 9 AM Jira briefing posted to Microsoft Teams, and event-driven Teams alerts for monitored folders. These are used by the dev, infrastructure, and media teams and across the institute.",
         techStack: [
             { name: "LLM API", type: "text" },
-            { name: "Jira", type: "text" },
-            { name: "Microsoft Teams", type: "text" },
+            { name: "Jira", type: "icon" },
+            { name: "Microsoft Teams", type: "icon" },
         ],
         image: dendriticDiagram,
         imageAlt: "Diagram: the AIVA course production pipeline, the Jira daily briefing, and the folder event notifications",
@@ -61,16 +70,16 @@ const data = {
             { name: "Outlook", type: "icon" },
         ],
         image: ragAgentPic,
-        inProgress: true,
+        inProgress: false,
     },
     LandingSite: {
         title: "Real-Time Landing Site Detection with ML",
-        description: "I lead a 3-person team selected as one of two winners of the FGCU Payload Challenge, with funding and a flight on the Deeptech Club's high-power rocket. A camera-only payload runs a segmentation model live on a Raspberry Pi to label terrain safe or unsafe, with IMU, barometer, and GPS logging, and is tested during powered ascent against flame, vibration, and motion blur. Done so far: an OpenRocket flight simulation and a pretrained-model proof of concept.",
+        description: "I lead a 4-person team selected as one of two winners of the FGCU Payload Challenge, with funding and a flight on the Deeptech Club's high-power rocket. A camera-only payload runs a segmentation model live on a Raspberry Pi to label terrain safe or unsafe, with IMU, barometer, and GPS logging, and every frame and sensor reading is saved for analysis. We test during powered ascent rather than parachute descent to stress the model with flame, vibration, spin, and motion blur. Done so far: an OpenRocket flight simulation and a pretrained-model proof of concept.",
         note: "Targets, not results: at least 2 predictions per second and 80% pixel accuracy, reported either way.",
         techStack: [
-            { name: "Raspberry Pi", type: "text" },
+            { name: "Raspberry Pi", type: "image", src: raspberryPi },
             { name: "Segmentation model", type: "text" },
-            { name: "OpenRocket", type: "text" },
+            { name: "OpenRocket", type: "image", src: openrocket },
         ],
         image: payloadDiagram,
         imageAlt: "Diagram: a camera feeds a segmentation model on a Raspberry Pi that labels terrain, alongside IMU, barometer, and GPS logging",
@@ -78,12 +87,12 @@ const data = {
     },
     CarSim: {
         title: "ML Self-Driving Car Simulator",
-        description: "A Python and Pygame environment, compatible with Gymnasium, with steering-based car physics, pixel-mask collision, five ray-cast sensors, and checkpoints. The neural network and genetic algorithm trainer will be written from scratch with no ML libraries, and the network does not exist yet. Baseline: a random policy over 1,000 episodes finished the track 0 times, and only 2 episodes passed even one checkpoint.",
+        description: "A Python and Pygame environment, compatible with Gymnasium, with steering-based car physics, pixel-mask collision, five ray-cast sensors, and checkpoints. I'm building the neural network and genetic algorithm trainer from scratch with no ML libraries, and the network does not exist yet. Baseline: a random policy over 1,000 episodes finished the track 0 times, and only 2 episodes passed even one checkpoint.",
         repo: "https://github.com/SamTusick/ml-car-sim",
         techStack: [
             { name: "Python", type: "image", src: pythonLogo },
-            { name: "Pygame", type: "text" },
-            { name: "Gymnasium", type: "text" },
+            { name: "Pygame", type: "image", src: pygame },
+            { name: "Gymnasium", type: "image", src: gymnasium },
         ],
         image: carSimDiagram,
         imageAlt: "Diagram: the built simulator environment, and the planned neural network and genetic algorithm trainer",
@@ -92,7 +101,7 @@ const data = {
 
     S4Good: {
         title: "Switch4Good Impact Tracking Database",
-        description: "Led a team developing a database system for Switch4Good to support impact tracking across more than 100 universities and over 1,500 students. Designed a PostgreSQL schema to manage student participation, projects, institutional partnerships, and program outcomes.",
+        description: "Led development of a PostgreSQL database and schema for Switch4Good covering participation, projects, partnerships, and outcomes, supporting 100+ universities and 1,500+ students.",
         repo: "https://github.com/SamTusick/Switch4Good_DataBaseSystem",
         techStack: [
             { name: "Postgres", type: "icon" }
@@ -102,18 +111,19 @@ const data = {
 
     SWTesting: {
         title: "Pinterest Testing Suites",
-        description: "Led a software testing team in evaluating Pinterest.com through automated testing methodologies, developing Selenium-based test suites in Java to assess functionality, reliability, and usability. Collaborated on testing strategy, execution, and reporting to present findings and recommendations for improving software quality.",
+        description: "Led a 2-person team testing Pinterest.com for functionality, usability, and regression with Selenium and TestNG suites in Java. Contributed to all 46 test cases across 8 modules (personally authored 25) with a 97.8% pass rate, and diagnosed and resolved bot-detection rate limiting by restructuring login test timing.",
         repo: "https://github.com/SamTusick/Pinterest_Testing_Final_Project",
         techStack: [
             { name: "Selenium", type: "icon" },
             { name: "Java", type: "icon" },
+            { name: "TestNG", type: "image", src: testNG },
         ],
         image: pinterest,
     },
 
     routerApp: {
         title: "Smart Router Monitoring App",
-        description: "Led a team and developed a Flask-based web application that collects, stores, and visualizes real-time performance metrics from Mango, Beryl, and ASUS routers using SSH connections. Built a REST API and SQLite-backed data pipeline to support dashboard analytics, scheduled data collection, and historical performance insights.",
+        description: "Led backend architecture decisions and task coordination for a 5-member Eagle CyberNest Lab team delivering a home-network security platform on schedule. Built Flask backend services with SSH and SQLite for real-time, centralized monitoring across three router platforms (Mango, Beryl, and ASUS), and tested and deployed the router-communication scripts.",
         repo: "https://github.com/nixguin/TrafficGuard-Upgraded",
         techStack: [
             { name: "Python", type: "image", src: pythonLogo },
@@ -124,14 +134,14 @@ const data = {
 
     AITutors: {
         title: "AI-Powered Tutors",
-        description: "Led the development of 14 curriculum-specific AI tutoring systems, grounded in curated course materials, now live in FGCU's College of Engineering Learning Hub. This work is done at Dendritic along with The Learning Hub.",
+        description: "Built 14 curriculum-specific AI tutors, grounded in curated course materials, for FGCU's Engineering Learning Hub. This work is done at Dendritic along with The Learning Hub.",
         techStack: [],
         image: aiTutor,
     },
 
     nhlScraper: {
         title: "NHL Stat Web Scraper",
-        description: "A Python + React tool that scrapes real-time NHL data by category using Selenium. Built for quick access to different player stat leaders.",
+        description: "A Selenium-based Flask scraper covering 15+ stat categories for every NHL player, exposed through REST APIs, with a React and Vite frontend for filterable stat views.",
         repo: "https://github.com/SamTusick/NHL-Web-Scraping",
         techStack: [
             { name: "Selenium", type: "icon" },

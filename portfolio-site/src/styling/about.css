@@ -49,14 +49,21 @@
 .about-image {
   flex: 1;
   min-width: 300px;
-  display: flex;
-  justify-content: center;
+  align-self: stretch;
+  position: relative;
 }
 
+/* Image is taken out of flow so the text column alone sets the row height;
+   it then fills from the top of the text down to the buttons. */
 .about-image img {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
   max-width: 400px;
-  height: auto;
+  height: calc(100% - 50px);
   border-radius: 15px;
   object-fit: cover;
 }
@@ -134,6 +141,15 @@
   .about-image {
     min-width: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-image img {
+    position: static;
+    transform: none;
+    height: auto;
+    max-width: 400px;
   }
 }
 
