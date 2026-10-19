@@ -55,10 +55,8 @@ export default function Academic(){
                         <strong>Relevant Coursework:</strong> Operating Systems, Software Testing, Intro to Data Engineering,
                                                                 Requirements Engineering & Analysis, Intro to Cloud Computing, Software Engineering
                                                                 Fundamentals, Computer Organization & Assembly Language Programming, Data Structures &
-                                                                Algorithms, Computer Security, Calculus III, Differential Equations.
-                        </p>
-                        <p>
-                        <strong>In Progress (Fall 2026):</strong> Machine Learning, AI Agent Studio, Software Architecture & Design.
+                                                                Algorithms, Computer Security, Calculus III, Differential Equations, Machine Learning, AI Agent Studio,
+                                                                Software Architecture & Design.
                         </p>
 
                         <hr className="academic-divider" />
@@ -92,10 +90,11 @@ export default function Academic(){
 
                     <div className="research-academic-block">
                         <ResearchCard
-                            title="AI & Automation Engineering, Dendritic AI & Data Science Institute"
+                            title="Agentic AI Research & Development, Dendritic AI & Data Science Institute"
                             period="Mar 2025 to Present"
-                            role="Student Research Assistant"
-                            tools="LLM APIs, workflow automation, Jira, Microsoft Teams"
+                            role="Student Research Assistant, Research & Development"
+                            tools="Python, LLMs, Agent Architecture, workflow automation, Jira, Microsoft Teams"
+                            description="I contribute to the design and development of AI-driven educational tools, intelligent tutoring systems, and applied research initiatives. My work focuses on building agentic AI solutions, supporting large-scale AI education programs, and developing technologies that enhance learning, mentorship, and real-world training experiences."
                             bullets={[
                                 "Built an LLM-powered pipeline for AI avatar course production (AIVA). One skill turns professor PDFs and slide decks into narration scripts, and a second generates the avatar video and a matching slide deck from each script and institute standards. Estimated 45% efficiency gain, used by the dev and infrastructure teams.",
                                 "Built a reusable skill that generates the institute handbook, documenting every team workflow. Used institute-wide.",
@@ -140,29 +139,31 @@ export default function Academic(){
                         <h3>Other Experience</h3>
                             <ul>
                                 <li>
-                                    <strong>2026 FGCU AI Day Panelist.</strong> Presented at FGCU's inaugural AI Day on the “AI in University Operations” panel, showcasing the AI tutors Dendritic built for the Engineering Learning Hub, which are grounded in curated course materials.
+                                    <strong>2026 FGCU AI Day Panelist.</strong> Presented at FGCU's inaugural AI Day on the “AI in University Operations” panel, showcasing Dendritic's work on the AI tutors developed for the Engineering Learning Hub, which are grounded in curated course materials. Shared insights on building instructor-guided tutoring systems designed to provide 24/7 academic support and expand access to personalized learning resources.
                                 </li>
                                 <li>
-                                    <strong>2026 FGCU Summer AI Academy.</strong> Coordinated the academy, which reached more than 500 participants through workshops, trainings, and webinars and more than 150 instructional hours.
-                                </li>
-                                {/* TODO(sam): confirm title (LinkedIn says "Platform Developer"; the old site said "Platform Developer Intern") and add dates. */}
-                                <li>
-                                    <strong>Authentifi.ai, Platform Developer.</strong> Contributed to AI-powered platform features.
+                                    <strong>2026 FGCU Summer AI Academy.</strong> Coordinated the planning and delivery of the 2026 FGCU Summer AI Academy, providing workshops, trainings, webinars, and hands-on learning experiences to more than 500 participants across more than 150 instructional hours. Contributed to educational content and initiatives designed to expand AI literacy for students, educators, and community partners.
                                 </li>
                                 <li>
-                                    <strong>EagleHacks 2025.</strong> Participated in FGCU's 36-hour hackathon, collaborating with a team on a project based on real-world company challenges.
+                                    <strong>Authentifi.ai, AI Platform Developer Intern.</strong> Worked as an AI Platform Developer Intern at Authentifi AI, contributing to the development of AI-powered solutions and platform features. Collaborated on software development initiatives focused on improving functionality, scalability, and user experience within emerging AI applications.
                                 </li>
                                 <li>
-                                    <strong>AI Summer Academy 2025.</strong> Contributed to curriculum design for courses such as <i>AI Productivity Tools</i>, and served as a teaching assistant for <i>AI Productivity Tools</i> and <i>AI Ethics</i>.
+                                    <strong>EagleHacks 2025.</strong> Participated in FGCU's 36-hour hackathon, collaborated with a team to develop a project based on real-world company challenges.
+                                </li>
+                                <li>
+                                    <strong>AI Summer Academy 2025.</strong> Contributed to curriculum design for courses such as <i>AI Productivity Tools</i>. Assisted with presentation creation and data validation for AI-focused topics. Also served as a teaching assistant for the <i>AI Productivity Tools</i> and <i>AI Ethics</i> courses, supporting participants throughout the program.
                                 </li>
                                 <li>
                                     <strong>FGCU TechMatch.</strong> Networked with companies and shared research experience with professionals and recruiters at FGCU’s career fair.
                                 </li>
                                 <li>
-                                    <strong>Research Assistant, Princeton University (Feb 2023 to Jun 2023).</strong> Transcribed and organized interviews with over 300 professors and professionals for a study of how programming is used across fields.
+                                    <strong>Research Assistant, Princeton University (Feb 2023 to Jun 2023).</strong> Worked alongside a team exploring how programming is applied in various academic and professional fields (<i>Computational Usage in Different Fields of Study</i>). Provided transcription support during interviews for over 300 professors and professionals to gain insight into how they integrated programming into their research and work, and collected, organized, and documented the data for analysis.
                                 </li>
                                 <li>
-                                    <strong>Tech Intern, Ambridge Area High School (Jan 2023 to Jun 2023).</strong> Supported students and staff with network, account, and display issues, and set up workstations and event equipment.
+                                    <strong>Tech Intern, Ambridge Area High School (Jan 2023 to Jun 2023).</strong> Interned with my high school's tech department, gaining hands-on experience supporting students and staff with technical issues. Assisted with troubleshooting network and account problems, resolving display errors, and handling general tech support requests. Also helped configure staff workstations and supported school events by setting up equipment like projectors and speakers.
+                                </li>
+                                <li>
+                                    <strong>DENDRITIC Institute.</strong> Ongoing contributor to research in agentic AI systems under the DENDRITIC Institute.
                                 </li>
                             </ul>
                     </motion.div>

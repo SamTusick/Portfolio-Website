@@ -8,6 +8,7 @@ import CppLogo from "../assets/icons8-c-48.png"
 import CLlogo from "../assets/icons8-c-programming-48.png"
 import VSCodeLogo from "../assets/icons8-vs-code-48.png"
 import CLionLogo from "../assets/CLion.png"
+import JBLogo from "../assets/JB.png"
 import viteLogo from "../assets/icons8-vite-48.png"
 import { motion } from "framer-motion";
 
@@ -22,10 +23,11 @@ const languages = [
 const frameworks = [
   { name: "React", ...iconMap["React"] },
   { name: "Flask", ...iconMap["Flask"] },
+  { name: "Node.js", ...iconMap["Node"] },
   { name: "Selenium", ...iconMap["Selenium"]}
 ];
 
-// Text-only chips. Keep this list to things I can defend in an interview.
+// Text-only chips (no icon or logo).
 const aiAutomation = [
   { name: "LLM API integration" },
   { name: "Prompt and skill design" },
@@ -43,6 +45,7 @@ const tools = [
   { name: "Git", ...iconMap["Git"] },
   { name: "GitHub Actions", ...iconMap["GitHub Actions"] },
   { name: "Vite", src: viteLogo, color: "#646CFF" },
+  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
 ];
 
 export default function Skills() {

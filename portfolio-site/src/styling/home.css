@@ -43,69 +43,6 @@
   color: #B0B0B0;
 }
 
-.home-value {
-  max-width: 34rem;
-  margin: 1rem 0 1.5rem;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  color: #D0D0D0;
-}
-
-.home-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.home-button {
-  display: inline-block;
-  padding: 0.65rem 1.25rem;
-  font-size: 0.95rem;
-  color: #FFFFFF;
-  background-color: #0B0B0B;
-  border: 1px solid #F04E23;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.home-button:hover {
-  background-color: #F04E23;
-}
-
-.home-button-primary {
-  background-color: #F04E23;
-}
-
-.home-button-primary:hover {
-  background-color: #ff6536;
-}
-
-.home-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 2rem;
-  list-style: none;
-  margin: 1.75rem 0 0;
-  padding: 0;
-}
-
-.home-stats li {
-  display: flex;
-  flex-direction: column;
-}
-
-.home-stat-value {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #F04E23;
-}
-
-.home-stat-label {
-  font-size: 0.85rem;
-  color: #B0B0B0;
-}
-
 .home-image {
   flex: 0 1 clamp(240px, 38vw, 500px);
   min-width: 0;
@@ -123,10 +60,6 @@
   .home-typewriter-static,
   .typewriter-text {
     font-size: 1.25rem;
-  }
-
-  .home-value {
-    font-size: 1rem;
   }
 
   .home-image {
@@ -151,16 +84,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .home-value {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .home-buttons,
-  .home-stats {
-    justify-content: center;
   }
 
   .home-image {

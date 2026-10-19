@@ -168,34 +168,6 @@
   background-color: #F04E23;
 }
 
-.more-projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0 1rem;
-}
-
-.more-projects-heading {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.more-projects-toggle {
-  background: none;
-  color: #FFFFFF;
-  border: 2px solid #F04E23;
-  border-radius: 6px;
-  padding: 0.5rem 1.25rem;
-  font-family: inherit;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.more-projects-toggle:hover {
-  background: #F04E23;
-}
 
 @media (max-width: 600px) {
   .projects-grid {
@@ -206,9 +178,4 @@
     max-width: 100%;
     box-sizing: border-box;
   }
-}
-
-.more-projects .projects-grid {
-  width: 100%;
-  box-sizing: border-box;
 }
