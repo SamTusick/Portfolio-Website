@@ -27,6 +27,7 @@ const data = {
         note: "Private codebase, no public repo. Runs in Local, Dev, and Test environments with real testers.",
         techStack: [
             { name: "React", type: "icon" },
+            { name: "TypeScript", type: "text" },
             { name: "AWS", type: "icon" },
             { name: "Lambda", type: "text" },
             { name: "Aurora", type: "text" },
