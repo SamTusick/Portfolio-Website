@@ -76,12 +76,6 @@ const data = {
         title: "Real-Time Landing Site Detection with ML",
         description: "I lead a 4-person team selected as one of two winners of the FGCU Payload Challenge, with funding and a flight on the Deeptech Club's high-power rocket. A camera-only payload runs a segmentation model live on a Raspberry Pi to label terrain safe or unsafe, with IMU, barometer, and GPS logging, and every frame and sensor reading is saved for analysis. We test during powered ascent rather than parachute descent to stress the model with flame, vibration, spin, and motion blur. Done so far: an OpenRocket flight simulation and a pretrained-model proof of concept.",
         note: "Targets, not results: at least 2 predictions per second and 80% pixel accuracy, reported either way.",
-        wip: false
-        },
-        S4Good: {
-        title: "Switch4Good Impact Tracking Database",
-        description: "Led a team developing a database system for Switch4Good to support impact tracking across more than 100 universities and over 1,500 students. Designed a PostgreSQL schema to manage student participation, projects, institutional partnerships, and program outcomes.",
-        repo: "https://github.com/SamTusick/Switch4Good_DataBaseSystem",
         techStack: [
             { name: "Raspberry Pi", type: "image", src: raspberryPi },
             { name: "Segmentation model", type: "text" },
@@ -104,7 +98,6 @@ const data = {
         imageAlt: "Diagram: the built simulator environment, and the planned neural network and genetic algorithm trainer",
         inProgress: true,
     },
-
     S4Good: {
         title: "Switch4Good Impact Tracking Database",
         description: "Led development of a PostgreSQL database and schema for Switch4Good covering participation, projects, partnerships, and outcomes, supporting 100+ universities and 1,500+ students.",
