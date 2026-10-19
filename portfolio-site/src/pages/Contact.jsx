@@ -24,13 +24,13 @@ export default function Contact(){
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.25, ease: "easeOut" }}
             >
-                <a href="mailto:samtusick@outlook.com" target="_blank" rel="noopener noreferrer" title = "Email">
+                <a href="mailto:samtusick@outlook.com" target="_blank" rel="noopener noreferrer" title="Email" aria-label="Email">
                     <FaEnvelope size={32} />
                 </a>
-                <a href="https://linkedin.com/in/samuel-tusick" target="_blank" rel="noopener noreferrer" title = "Linkedin">
+                <a href="https://linkedin.com/in/samuel-tusick" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn">
                     <FaLinkedin size={32} />
                 </a>
-                <a href="https://github.com/SamTusick" target="_blank" rel="noopener noreferrer" title = "GitHub">
+                <a href="https://github.com/SamTusick" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
                     <FaGithub size={32} />
                 </a>
             </motion.div>

@@ -97,3 +97,54 @@
   background-color: #ff6536;
 }
 
+
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.contact-status {
+  margin: 0;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.contact-status.success {
+  background-color: rgba(60, 160, 90, 0.15);
+  border: 1px solid #3ca05a;
+  color: #9be3b0;
+}
+
+.contact-status.error {
+  background-color: rgba(240, 78, 35, 0.15);
+  border: 1px solid #F04E23;
+  color: #ffb8a5;
+}
+
+.contact-status a {
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+    margin: 1.5rem 0.75rem;
+    padding: 1.25rem;
+  }
+
+  .contact-header-bottom {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+  .contact-form {
+    max-width: 560px;
+  }
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  font-family: inherit;
+}

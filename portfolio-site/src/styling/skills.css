@@ -30,6 +30,8 @@
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 /* Each skill category section */
@@ -44,8 +46,8 @@
   font-size: 1.5rem;
   font-weight: 600;
   color: #FFFFFF;
-  border-bottom: 2px solid #F04E23;;
-  padding-left: 10px;
+  border-bottom: 2px solid #F04E23;
+  padding: 0 10px;
 }
 
 
@@ -53,7 +55,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.25rem 1.5rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  width: 84px;
+}
+
+.skill-label {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #B0B0B0;
+}
+
+.skill-chip {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #F04E23;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #FFFFFF;
 }
 
 .skill-icon {

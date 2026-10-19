@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" role="img" font-family="Poppins, Arial, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B0B0B0"/></marker></defs>
+  <title>MAIVA orchestrator architecture</title>
+  <g fill="#262626" stroke="#555" stroke-width="1.2">
+    <rect x="8" y="65" width="84" height="40" rx="6"/>
+    <rect x="334" y="8" width="118" height="30" rx="6"/>
+    <rect x="334" y="45" width="118" height="30" rx="6"/>
+    <rect x="334" y="82" width="118" height="30" rx="6"/>
+    <rect x="334" y="119" width="118" height="30" rx="6" stroke-dasharray="4 3"/>
+    <rect x="150" y="128" width="120" height="30" rx="6"/>
+  </g>
+  <rect x="150" y="55" width="120" height="60" rx="8" fill="#3a1d14" stroke="#F04E23" stroke-width="1.6"/>
+  <g stroke="#B0B0B0" stroke-width="1.4" fill="none" marker-end="url(#a)" marker-start="url(#a)">
+    <path d="M92 85H150"/>
+    <path d="M270 70L334 23"/>
+    <path d="M270 80L334 60"/>
+    <path d="M270 90L334 97"/>
+    <path d="M270 100L334 134" stroke-dasharray="4 3"/>
+    <path d="M210 115V128"/>
+  </g>
+  <g fill="#FFFFFF" font-size="13" text-anchor="middle">
+    <text x="50" y="89">React UI</text>
+    <text x="210" y="82" font-weight="600">Orchestrator</text>
+    <text x="210" y="98" font-size="11" fill="#B0B0B0">service</text>
+    <text x="393" y="27">Speech-to-text</text>
+    <text x="393" y="64">Text-to-speech</text>
+    <text x="393" y="101">LLM API</text>
+    <text x="393" y="138" fill="#B0B0B0">Avatar (planned)</text>
+    <text x="210" y="147">Database</text>
+  </g>
+  <g fill="#B0B0B0" font-size="11" text-anchor="middle">
+    <text x="210" y="44">Master prompt + patient metadata</text>
+    <text x="210" y="168">Chats saved in real time</text>
+  </g>
+</svg>

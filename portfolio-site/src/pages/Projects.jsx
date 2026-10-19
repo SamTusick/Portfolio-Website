@@ -2,12 +2,11 @@
 import "../styling/projects.css"
 import ProjectsCard from "../components/ProjectsCard";
 import data from "../data/projectsData";
-import { motion} from "framer-motion"
+import { motion } from "framer-motion"
 
+const projects = Object.entries(data);
 
 export default function Projects() {
-  const projects = Object.values(data);
-
   return(
     <section className="projects-section">
             <motion.div
@@ -25,11 +24,11 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.25, ease: "easeOut" }}
             >
-              {projects.map((project, index) => (
-                <ProjectsCard key={index} {...project} />
+              {projects.map(([key, project]) => (
+                <ProjectsCard key={key} {...project} />
               ))}
             </motion.div>
+
     </section>
   );
-  }
-  
+}

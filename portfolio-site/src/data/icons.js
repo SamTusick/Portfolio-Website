@@ -1,14 +1,22 @@
 import { FaReact, FaGithub, FaHtml5, FaCss3Alt, FaNode, FaGitAlt, FaJava, FaAws } from 'react-icons/fa';
-import { SiFlask, SiMongodb, SiGithubactions, SiSelenium, SiSqlite } from 'react-icons/si';
-import { BiLogoPostgresql } from "react-icons/bi";
+import { SiFlask, SiMongodb, SiGithubactions, SiSelenium, SiSqlite, SiTypescript, SiTailwindcss, SiJira } from 'react-icons/si';
+import { BiLogoPostgresql, BiLogoMicrosoftTeams } from "react-icons/bi";
 import { PiFileSqlDuotone, PiMicrosoftOutlookLogoThin } from "react-icons/pi";
-import { AiOutlineOpenAI } from "react-icons/ai";
-import { color } from 'framer-motion';
 
 export const iconMap = {
   React: {
     icon: FaReact,
     color: "#61DAFB"
+  },
+
+  Jira: {
+    icon: SiJira,
+    color: "#0052CC"
+  },
+
+  "Microsoft Teams": {
+    icon: BiLogoMicrosoftTeams,
+    color: "#505AC9"
   },
 
   Flask: {
@@ -73,11 +81,6 @@ export const iconMap = {
     color: "#00A4EF"
   },
 
-  OpenAI: {
-    icon: AiOutlineOpenAI,
-    color: "#ffffff"
-  },
-
   AWS: {
     icon: FaAws,
     color: "#FF9900"
@@ -86,6 +89,15 @@ export const iconMap = {
   Outlook: {
     icon: PiMicrosoftOutlookLogoThin,
     color: "#00A4EF"
-  }
+  }, 
+
+  TypeScript: {
+    icon: SiTypescript,
+    color: "#3178C6"
+  },
   
+  Tailwind: {
+    icon: SiTailwindcss,
+    color: "#38BDF8"
+  }
 };
