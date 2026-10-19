@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" role="img" font-family="Poppins, Arial, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B0B0B0"/></marker></defs>
+  <title>Landing site detection payload data flow</title>
+  <g fill="#262626" stroke="#555" stroke-width="1.2">
+    <rect x="8" y="26" width="100" height="44" rx="6"/>
+    <rect x="352" y="26" width="100" height="44" rx="6"/>
+    <rect x="165" y="98" width="130" height="34" rx="6"/>
+  </g>
+  <rect x="165" y="14" width="130" height="68" rx="8" fill="#3a1d14" stroke="#F04E23" stroke-width="1.6"/>
+  <g stroke="#B0B0B0" stroke-width="1.4" fill="none" marker-end="url(#a)">
+    <path d="M108 48H165"/><path d="M295 48H352"/><path d="M230 98V82"/>
+  </g>
+  <g fill="#FFFFFF" font-size="13" text-anchor="middle">
+    <text x="58" y="52">Camera</text>
+    <text x="230" y="44" font-weight="600">Raspberry Pi</text>
+    <text x="230" y="62" font-size="11.5">segmentation model</text>
+    <text x="402" y="44">Safe / unsafe</text><text x="402" y="60" font-size="11.5">terrain labels</text>
+    <text x="230" y="119" font-size="12">IMU, barometer, GPS log</text>
+  </g>
+  <text x="230" y="158" fill="#F04E23" font-size="12" text-anchor="middle">Targets, not results: 2+ predictions/s, 80% pixel accuracy</text>
+</svg>

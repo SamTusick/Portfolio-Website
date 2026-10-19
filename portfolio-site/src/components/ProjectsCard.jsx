@@ -1,40 +1,60 @@
-import React from "react";
 import { iconMap } from "../data/icons";
+import InProgressBadge from "./InProgressBadge";
 
-export default function ProjectsCard({image, title, description, repo, techStack, wip}) {
+export default function ProjectsCard({ image, imageAlt, title, description, note, repo, techStack, inProgress }) {
     return (
         <div className="projects-card">
-            <img className="portfolio-image" src={image} alt={`${title} screenshot`} />
-            <h2>{title}</h2>
+            <img
+                className="portfolio-image"
+                src={image}
+                alt={imageAlt || `${title} screenshot`}
+                width={460}
+                height={170}
+                loading="lazy"
+                decoding="async"
+            />
+            <div className="projects-card-heading">
+                <h3>{title}</h3>
+                {inProgress && <InProgressBadge />}
+            </div>
             <p>{description}</p>
+            {note && <p className="projects-card-note">{note}</p>}
 
-             {wip && <p className="wip-inline">🚧 This project is still under construction. 🚧</p>}
+            {techStack.length > 0 && (
+                <div className="tech-stack">
+                    {techStack.map((tech) => {
+                        if (tech.type === "text") {
+                            return (
+                                <span className="tech-item tech-text" key={tech.name}>
+                                    {tech.name}
+                                </span>
+                            );
+                        }
 
-            <div className="tech-stack">
-                {techStack.map((tech) => {
-                    if (tech.type === "image") {
-                        return (
-                            <span className="tech-item" key={tech.name} title={tech.name}>
-                                <img
-                                    src={tech.src}
-                                    alt={tech.name}
-                                    className="tech-icon"
-                                    key={tech.name}
-                                    title={tech.name}
-                                    style={{ width: "1.5rem", height: "1.5rem" }}
-                                />
-                            </span>
-                        );
-                    }
+                        if (tech.type === "image") {
+                            return (
+                                <span className="tech-item" key={tech.name} title={tech.name}>
+                                    <img
+                                        src={tech.src}
+                                        alt={tech.name}
+                                        className="tech-icon"
+                                        width={24}
+                                        height={24}
+                                        style={{ width: "1.5rem", height: "1.5rem" }}
+                                    />
+                                </span>
+                            );
+                        }
 
                         const { icon: Icon, color } = iconMap[tech.name] || {};
                         return (
                             <span className="tech-item" key={tech.name} title={tech.name}>
-                            {Icon ? <Icon className="tech-icon" title={tech.name} style={{ color }} /> : tech.name}
+                                {Icon ? <Icon className="tech-icon" title={tech.name} style={{ color }} /> : tech.name}
                             </span>
-                         );
+                        );
                     })}
-            </div>
+                </div>
+            )}
 
             {repo && (
                 <a
@@ -46,7 +66,6 @@ export default function ProjectsCard({image, title, description, repo, techStack
                     View Code
                 </a>
             )}
-
         </div>
     );
 }

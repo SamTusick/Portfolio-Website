@@ -1,8 +1,6 @@
-import React from "react";
-import { iconMap } from "../data/icons";
 import { motion } from "framer-motion";
 
-export default function ProjectCard({ title, period, role, tools, description}){
+export default function ResearchCard({ title, period, role, tools, description, bullets }){
     return (
         <motion.div
             className="research-card"
@@ -11,10 +9,17 @@ export default function ProjectCard({ title, period, role, tools, description}){
             transition={{ duration: 1.25, ease: "easeOut" }}
         >
             <h4>{title}</h4>
-            <p className="period">{period}</p>
+            {period && <p className="period">{period}</p>}
             {role && <p><strong>Role:</strong> {role}</p>}
             {tools && <p><strong>Tools:</strong> {tools}</p>}
-            <p>{description}</p>
+            {description && <p>{description}</p>}
+            {bullets && (
+                <ul>
+                    {bullets.map((bullet) => (
+                        <li key={bullet}>{bullet}</li>
+                    ))}
+                </ul>
+            )}
         </motion.div>
     );
 }

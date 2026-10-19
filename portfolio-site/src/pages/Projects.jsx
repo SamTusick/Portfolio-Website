@@ -1,12 +1,16 @@
 /* Projects Page */
 import "../styling/projects.css"
+import { useState } from "react";
 import ProjectsCard from "../components/ProjectsCard";
 import data from "../data/projectsData";
-import { motion} from "framer-motion"
+import { motion } from "framer-motion"
 
+const allProjects = Object.entries(data);
+const featured = allProjects.filter(([, project]) => project.featured);
+const more = allProjects.filter(([, project]) => !project.featured);
 
 export default function Projects() {
-  const projects = Object.values(data);
+  const [showMore, setShowMore] = useState(false);
 
   return(
     <section className="projects-section">
@@ -25,11 +29,30 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.25, ease: "easeOut" }}
             >
-              {projects.map((project, index) => (
-                <ProjectsCard key={index} {...project} />
+              {featured.map(([key, project]) => (
+                <ProjectsCard key={key} {...project} />
               ))}
             </motion.div>
+
+            <div className="more-projects">
+              <h3 className="more-projects-heading">More Projects</h3>
+              <button
+                type="button"
+                className="more-projects-toggle"
+                aria-expanded={showMore}
+                aria-controls="more-projects-grid"
+                onClick={() => setShowMore((prev) => !prev)}
+              >
+                {showMore ? "Hide" : `Show ${more.length} more`}
+              </button>
+              {showMore && (
+                <div className="projects-grid" id="more-projects-grid">
+                  {more.map(([key, project]) => (
+                    <ProjectsCard key={key} {...project} />
+                  ))}
+                </div>
+              )}
+            </div>
     </section>
   );
-  }
-  
+}

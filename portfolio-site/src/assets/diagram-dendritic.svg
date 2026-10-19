@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" role="img" font-family="Poppins, Arial, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B0B0B0"/></marker></defs>
+  <title>Dendritic automation workflows</title>
+  <g fill="#262626" stroke="#555" stroke-width="1.2">
+    <rect x="5" y="6" width="130" height="44" rx="6"/><rect x="165" y="6" width="130" height="44" rx="6"/><rect x="325" y="6" width="130" height="44" rx="6" />
+    <rect x="5" y="63" width="130" height="44" rx="6"/><rect x="165" y="63" width="130" height="44" rx="6"/><rect x="325" y="63" width="130" height="44" rx="6"/>
+    <rect x="5" y="120" width="130" height="44" rx="6"/><rect x="165" y="120" width="130" height="44" rx="6"/><rect x="325" y="120" width="130" height="44" rx="6"/>
+  </g>
+  <g fill="#3a1d14" stroke="#F04E23" stroke-width="1.4">
+    <rect x="165" y="6" width="130" height="44" rx="6"/><rect x="325" y="6" width="130" height="44" rx="6"/>
+  </g>
+  <g stroke="#B0B0B0" stroke-width="1.4" fill="none" marker-end="url(#a)">
+    <path d="M135 28H165"/><path d="M295 28H325"/>
+    <path d="M135 85H165"/><path d="M295 85H325"/>
+    <path d="M135 142H165"/><path d="M295 142H325"/>
+  </g>
+  <g fill="#FFFFFF" font-size="11.5" text-anchor="middle">
+    <text x="70" y="26">Professor PDFs</text><text x="70" y="40">and slide decks</text>
+    <text x="230" y="26">Skill 1</text><text x="230" y="40">narration scripts</text>
+    <text x="390" y="26">Skill 2</text><text x="390" y="40">avatar video + deck</text>
+    <text x="70" y="83">Jira data</text><text x="70" y="97">9 AM schedule</text>
+    <text x="230" y="83">Build daily</text><text x="230" y="97">briefing card</text>
+    <text x="390" y="83">Microsoft Teams</text><text x="390" y="97">channel card</text>
+    <text x="70" y="140">File lands in a</text><text x="70" y="154">monitored folder</text>
+    <text x="230" y="140">Event-driven</text><text x="230" y="154">workflow</text>
+    <text x="390" y="140">Microsoft Teams</text><text x="390" y="154">notification</text>
+  </g>
+</svg>

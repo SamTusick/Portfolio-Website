@@ -8,33 +8,41 @@ import CppLogo from "../assets/icons8-c-48.png"
 import CLlogo from "../assets/icons8-c-programming-48.png"
 import VSCodeLogo from "../assets/icons8-vs-code-48.png"
 import CLionLogo from "../assets/CLion.png"
-import JBLogo from "../assets/JB.png"
 import viteLogo from "../assets/icons8-vite-48.png"
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const languages = [
   { name: "C", src: CLlogo, color: "#283593"},
   { name: "C++", src: CppLogo, color: "#00599C" },
   { name: "Python", src: pythonLogo, color: "#3776AB" },
+  { name: "JavaScript", src: JSLogo, color: "#F7DF1E" },
   { name: "SQL", ...iconMap["SQL"] },
 ];
 
 const frameworks = [
   { name: "React", ...iconMap["React"] },
   { name: "Flask", ...iconMap["Flask"] },
-  { name: "Node.js", ...iconMap["Node"] },
   { name: "Selenium", ...iconMap["Selenium"]}
 ];
 
+// Text-only chips. Keep this list to things I can defend in an interview.
+const aiAutomation = [
+  { name: "LLM API integration" },
+  { name: "Prompt and skill design" },
+  { name: "Workflow automation" },
+  { name: "Speech-to-text and text-to-speech" },
+  { name: "Agentic workflows" },
+];
+
 const tools = [
-  { name: "PostgresSQL", ...iconMap["Postgres"]},
+  { name: "AWS", ...iconMap["AWS"] },
+  { name: "PostgreSQL", ...iconMap["Postgres"]},
   { name: "VS Code", src: VSCodeLogo, color: "#007ACC" },
-  { name: "CLIon", src: CLionLogo, color: "#0CA678" },
+  { name: "CLion", src: CLionLogo, color: "#0CA678" },
   { name: "GitHub", ...iconMap["GitHub"] },
   { name: "Git", ...iconMap["Git"] },
   { name: "GitHub Actions", ...iconMap["GitHub Actions"] },
   { name: "Vite", src: viteLogo, color: "#646CFF" },
-  { name: "Jupyter Book", src: JBLogo, color: "#F37626"},
 ];
 
 export default function Skills() {
@@ -59,6 +67,7 @@ export default function Skills() {
             <div className="skills-container">
                 <SkillSection title="Languages" techStack={languages} />
                 <SkillSection title="Frameworks & Libraries" techStack={frameworks} />
+                <SkillSection title="AI & Automation" techStack={aiAutomation} />
                 <SkillSection title="Tools & Platforms" techStack={tools} />
             </div>
           </motion.div>
