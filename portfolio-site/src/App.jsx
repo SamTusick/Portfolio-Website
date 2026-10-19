@@ -1,3 +1,4 @@
+import { MotionConfig } from "framer-motion";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -8,15 +9,18 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-  <>
-    <NavBar />
-    <section id="home"><Home /></section>
-    <section id="about"><About /></section>
-    <section id="projects"><Projects /></section>
-    <section id="skills"><Skills /></section>
-    <section id="academic"><Academic /></section>
-    <section id="contact"><Contact /></section>
-  </>
+    // reducedMotion="user" turns off movement animations when the OS asks for less motion.
+    <MotionConfig reducedMotion="user">
+      <NavBar />
+      <main>
+        <div id="home"><Home /></div>
+        <div id="about"><About /></div>
+        <div id="projects"><Projects /></div>
+        <div id="skills"><Skills /></div>
+        <div id="academic"><Academic /></div>
+        <div id="contact"><Contact /></div>
+      </main>
+    </MotionConfig>
   );
 }
 

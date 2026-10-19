@@ -42,6 +42,10 @@
   line-height: 1.6;
 }
 
+.about-text p {
+  margin: 0 0 1rem;
+}
+
 .about-image {
   flex: 1;
   min-width: 300px;
@@ -52,13 +56,15 @@
 .about-image img {
   width: 100%;
   max-width: 400px;
+  height: auto;
   border-radius: 15px;
   object-fit: cover;
 }
 
 .button-wrapper {
   display: flex;
-  justify-content: center; 
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -95,6 +101,13 @@
 .cv-button:hover {
   background-color: #F04E23;
 }
+
+@media (max-width: 1100px) {
+  .about-text {
+    padding-left: 1.5rem;
+  }
+}
+
 @media (max-width: 767px) {
   .about-content-container {
     flex-direction: column;
@@ -109,15 +122,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 0;
   }
 
-  .resume-button-wrapper {
+  .button-wrapper {
     justify-content: center;
     width: 100%;
     margin-top: 1.5rem;
   }
 
-  .resume-button {
-    width: fit-content;
+  .about-image {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+.about-content-container {
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .about-content-container {
+    padding-right: 1rem;
   }
 }

@@ -46,3 +46,22 @@
 .research-card strong {
   color: #FFFFFF;
 }
+
+.research-card ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  color: #B0B0B0;
+}
+
+.research-card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .research-card {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+}
