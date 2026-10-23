@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
-import Academic from "./pages/Academic";
+import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <div id="about"><About /></div>
         <div id="projects"><Projects /></div>
         <div id="skills"><Skills /></div>
-        <div id="academic"><Academic /></div>
+        <div id="experience"><Experience /></div>
         <div id="contact"><Contact /></div>
       </main>
     </MotionConfig>

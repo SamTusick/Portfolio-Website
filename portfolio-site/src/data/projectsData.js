@@ -173,7 +173,7 @@ const data = {
 
     portfolioWebsite: {
         title: "Portfolio Website",
-        description: "A modern, responsive portfolio website built with React and Vite to showcase my projects, skills, and academic experience. Designed for clarity, performance, and personalization.",
+        description: "A modern, responsive portfolio website built with React and Vite to showcase my projects, skills, and experience. Designed for clarity, performance, and personalization.",
         repo: "https://github.com/SamTusick/Portfolio-Website",
         techStack: [
             { name: "React", type: "icon" },

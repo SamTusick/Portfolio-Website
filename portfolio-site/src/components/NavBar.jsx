@@ -45,7 +45,7 @@ function NavBar() {
         <a href="#about" onClick={() => setIsOpen(false)}>About</a>
         <a href="#projects" onClick={() => setIsOpen(false)}>Projects</a>
         <a href="#skills" onClick={() => setIsOpen(false)}>Skills</a>
-        <a href="#academic" onClick={() => setIsOpen(false)}>Academic</a>
+        <a href="#experience" onClick={() => setIsOpen(false)}>Experience</a>
         <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
       </nav>
     </header>
