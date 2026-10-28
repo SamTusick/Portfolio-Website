@@ -3,7 +3,7 @@
 ## Weekend Plan (May 6-12)
 
 - [x] Set up Vite + React project
-- [x] Create basic layout (Header, Hero, and academic)
+- [x] Create basic layout (Header, Hero, and experience)
 - [x] Header
 - [x] Home Page
 - [x] Style with Google Fonts(Probably Poppins)
@@ -38,7 +38,7 @@
 - [x] Create hover effects & a constant animation
 - [x] Use flex/grid layout(Ended up going with a column layout)
 
-### Academic Page
+### Experience Page
 
 - [x] List FGCU, Princeton program, summer academy involvement
 - [x] Use clean and bullet formatting
